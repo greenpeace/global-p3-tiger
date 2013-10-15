@@ -1,4 +1,0 @@
-https://p3-admin.greenpeace.org/international/Templates/Planet3/Pages/CustomPage.aspx?id=377080_1096101&previewmode	index
-https://p3-admin.greenpeace.org/international/en/	default
-https://p3-admin.greenpeace.org/international/en/Help/privacy/	default_001
-https://p3-admin.greenpeace.org/international/en/Help/copyright2/	default_002

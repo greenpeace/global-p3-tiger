@@ -1,9 +1,0 @@
-html, body { margin: 0px; padding: 0px; }
-#form-wrap { padding-top: 10px; padding-left: 30px; padding-right: 10px; }
-form { padding: 0px; }
-.fields { width: 300px; border: 1.3px solid rgb(97, 186, 7); padding: 3px 2px; color: grey; }
-.shortfields { width: 145px; border: 1.3px solid rgb(97, 186, 7); padding: 3px 2px; color: grey; }
-input { margin: 2px 0px 6px; }
-body { font-family: helvetica,arial,sans-serif; color: rgb(255, 255, 255); font-size: 12px; background: none repeat scroll 0% 0% rgb(35, 31, 32); }
-label { margin-bottom: 1px; display: block; }
-#calltoaction { width: 380px; }

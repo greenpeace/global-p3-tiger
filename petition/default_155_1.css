@@ -1,8 +1,0 @@
-form, fieldset { margin: 0pt; padding: 0pt; border-top: medium none; border-bottom: medium none; }
-input, select, textarea { vertical-align: middle; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: normal; font-size-adjust: none; font-stretch: normal; }
-fieldset.CenterSignUp { background: none repeat scroll 0% 0% rgb(186, 204, 217); width: 300px; height: 120px; border: medium none; padding-top: 4px; }
-.CenterSignUp input[type="text"] { line-height: normal; background-color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); display: inline; padding: 3px; font-size: 12px; }
-.CenterSignUp input.email[type="text"] { width: 260px ! important; }
-.CenterSignUp input.fname[type="text"] { width: 175px ! important; }
-.CenterSignUp input.zip[type="text"] { width: 80px ! important; }
-input.CenterSignUp { border: medium none; display: inline; height: 55px; width: 295px; background: url('keep-in-touch.png') no-repeat scroll 0% 0% transparent; padding: 0px; }
