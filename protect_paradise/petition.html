@@ -545,52 +545,53 @@ tiger and forest friendly!
 -->
 <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/main_ie6.js"></script>
+    <script type="text/javascript" src="jquery.pngFix.js"></script>
 
-<!--
-	<script type="text/javascript"> 
-/*
-		// GA Global and local account tracking
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-3355226-9']);
-		_gaq.push(['_setDomainName', '.greenpeace.org']);
-		_gaq.push(['_setAllowLinker', true]);
-		_gaq.push(['_setAllowHash', false]);
-		_gaq.push(['_setSiteSpeedSampleRate', 10]);
-		_gaq.push(['_trackPageview']);
+    <!--
+        <script type="text/javascript">
+    /*
+            // GA Global and local account tracking
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-3355226-9']);
+            _gaq.push(['_setDomainName', '.greenpeace.org']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_setAllowHash', false]);
+            _gaq.push(['_setSiteSpeedSampleRate', 10]);
+            _gaq.push(['_trackPageview']);
 
-		_gaq.push(['b._setAccount', 'UA-XXXXX-X']);
-		_gaq.push(['b._setDomainName', '.greenpeace.org']);
-		_gaq.push(['b._setAllowLinker', true]);
-		_gaq.push(['b._setAllowHash', false]);
-		_gaq.push(['b._setSiteSpeedSampleRate', 10]);
-		_gaq.push(['b._trackPageview']);
+            _gaq.push(['b._setAccount', 'UA-XXXXX-X']);
+            _gaq.push(['b._setDomainName', '.greenpeace.org']);
+            _gaq.push(['b._setAllowLinker', true]);
+            _gaq.push(['b._setAllowHash', false]);
+            _gaq.push(['b._setSiteSpeedSampleRate', 10]);
+            _gaq.push(['b._trackPageview']);
 
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
 
-		// Form Abandonment
-		$(document).ready(function() { 
-			var formName = '';
-			var fieldName = '';
-			$('.js-track-abandonment :input').blur(function () {
-				formName = ($(this).closest('form').attr('id'));
-				fieldName = ($(this).attr('name'));
-				if(fieldName != undefined && formName != undefined) {
-					if($(this).val().length > 0) {
-						_gaq.push(['_trackEvent', formName, 'completed', fieldName]);
-					} 
-					else {
-						_gaq.push(['_trackEvent', formName, 'skipped', fieldName]);
-					}
-				}
-			});
-		});
-*/
-	</script>
- -->
+            // Form Abandonment
+            $(document).ready(function() {
+                var formName = '';
+                var fieldName = '';
+                $('.js-track-abandonment :input').blur(function () {
+                    formName = ($(this).closest('form').attr('id'));
+                    fieldName = ($(this).attr('name'));
+                    if(fieldName != undefined && formName != undefined) {
+                        if($(this).val().length > 0) {
+                            _gaq.push(['_trackEvent', formName, 'completed', fieldName]);
+                        }
+                        else {
+                            _gaq.push(['_trackEvent', formName, 'skipped', fieldName]);
+                        }
+                    }
+                });
+            });
+    */
+        </script>
+     -->
 </div>
 </body>
 </html>
