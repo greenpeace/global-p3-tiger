@@ -206,7 +206,7 @@ form input.error {
 }
 
 /* if large screen display info as tooltips */
-@media only screen and (min-width : 1024px) {
+.form_desktop_macro() {
 	.input .tooltip {
 		display:block;
 		width:10px;
@@ -299,4 +299,13 @@ select:hover {
 }
 :-ms-input-placeholder {
 	color:#333;
+}
+
+/* ------ media queries ------------------- */
+
+@media only screen and (min-width : 1024px) {
+  .form_desktop_macro;
+}
+.desktop {
+  .form_desktop_macro;
 }

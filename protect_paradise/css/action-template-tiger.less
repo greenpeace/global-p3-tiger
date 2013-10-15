@@ -132,7 +132,7 @@ blockquote {
 	 Desktop
 	 ========================================================================== */
 
-@media only screen and (min-width : 1024px) {
+.desktop_macro() {
 
 	/* header */
 	h1 {
@@ -285,5 +285,15 @@ blockquote {
 	.footer ul {
 		float:right;
 	}
+}
+
+/* ----- Media queries --------------------------------- */
+
+@media only screen and (min-width : 1024px) {
+  .desktop_macro;
+}
+
+.desktop {
+  .desktop_macro;
 }
 
