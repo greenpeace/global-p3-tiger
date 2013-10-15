@@ -1,0 +1,4 @@
+body { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+.holder { height: 800px; background: none repeat scroll 0% 0% rgb(0, 0, 0); text-align: center; }
+.links { float: right; }
+.links a { padding-right: 10px; }

@@ -1,0 +1,161 @@
+/* ::::: http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=nl ::::: */
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url('dxi1orhcpsqm3vp6mxoatxhcuogz7vygh680lgh-uxm.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"), url('cjzkeoubrn4kerxqtauh3t8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url('mtp_ysujh_bn48vbg8snsnhcuogz7vygh680lgh-uxm.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"), local("OpenSans-Bold"), url('k3k702zokiljc3wvjuplzhhcuogz7vygh680lgh-uxm.woff') format("woff");
+}
+/* ::::: http://www.google.nl/policies/css/default.css ::::: */
+
+/* ::::: http://www.google.com/css/maia.css ::::: */
+
+/* ::::: http://www.google.com/css/modules/temp/notification/maia.css ::::: */
+
+@media screen, projection {
+	#maia-footer-global [href$="/policies/"]:before { color: rgb(204, 51, 51); content: "New "; }
+	[lang="nl"] #maia-footer-global [href$="/policies/"]:before { content: "Nieuw "; }
+}
+@media screen, projection, print {
+	html, input, textarea { font-family: arial,sans-serif; }
+	html { line-height: 1.54; }
+	fieldset, iframe, img { border: 0px none; }
+}
+@media screen, projection {
+	html, h4, h5, h6 { font-size: 13px; }
+	html { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(68, 68, 68); padding: 0px 15px; }
+	body, fieldset { margin: 0px; }
+	h1, h2, h3, h4, em, i { font-weight: bold; }
+	h1, h2, h3, h4, blockquote, q { font-family: "open sans",arial,sans-serif; }
+	h1, h2, h3, h4, h5, h6 { margin: 1.236em 0px 0.618em; }
+	h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p { margin-top: 0px; }
+	h1, h2 { line-height: 1.29; }
+	h1 { font-size: 20px; }
+	h2 { font-size: 16px; }
+	h3 { font-size: 14px; line-height: 1.43; }
+	p, pre, table, form { margin: 10px 0px; }
+	ul, ol { margin: 10px 10px 10px 30px; padding: 0px; }
+	ul ul, ul ol, ol ul, ol ol { margin-bottom: 0px; margin-top: 0px; }
+	a { color: rgb(36, 93, 193); text-decoration: none; }
+	a:visited { color: rgb(119, 89, 174); }
+	a:focus, a:hover, a:active { text-decoration: underline; }
+	strong, b { color: rgb(0, 0, 0); }
+	tr:nth-of-type(2n) { background-color: rgb(255, 255, 255); }
+	#maia-header, #maia-nav-x, #maia-footer, .maia-stage { margin: 0px -15px; }
+	#maia-header .maia-aux:after, #maia-header .maia-util:after, #maia-main:after { clear: both; content: " "; display: block; height: 0px; visibility: hidden; }
+	#maia-main, .maia-aux { margin: auto; max-width: 978px; }
+	#maia-main { clear: both; margin-top: 30px; }
+	#maia-header { background: -moz-linear-gradient(center top , rgb(250, 250, 250), rgb(245, 245, 245)) repeat scroll 0% 0% transparent; border-bottom: 1px solid rgb(238, 238, 238); color: rgb(68, 68, 68); min-height: 44px; padding: 14px 15px 13px; }
+	#maia-header h1, #maia-header h2 { float: left; font-size: 32px; font-weight: 300; line-height: 1.375; margin: 0px; }
+	#maia-header h1, #maia-header h1 a { color: rgb(99, 102, 106); }
+	#maia-header h1 img { margin: -1px 0px -4px; vertical-align: middle; }
+	#maia-header h1 img[src$="google_logo_41.png"] {  }
+	#maia-header h2, #maia-header h2 a { color: rgb(159, 162, 166); }
+	#maia-header h2:before { border-style: solid; border-color: rgb(229, 229, 229); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 0px 1px; content: ""; float: left; height: 44px; margin: 0px 12px 0px 14px; }
+	#maia-header h1 a, #maia-header h2 a { text-decoration: none; }
+	#maia-header .maia-teleport { height: 1px; left: -10000px; overflow: hidden; position: absolute; top: auto; width: 1px; }
+	#maia-header .maia-teleport:active, #maia-header .maia-teleport:focus, #maia-header .maia-teleport:hover { background: none repeat scroll 0% 0% rgb(249, 237, 190); border: 1px solid rgb(240, 195, 109); border-radius: 2px 2px 2px 2px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14); height: auto; left: 0px; margin: 5px auto; max-width: 180px; padding: 6px; right: 0px; text-align: center; width: auto; z-index: 3; }
+	#maia-nav-x ul, #maia-nav-y ul { list-style: none outside none; margin: 0px; }
+	#maia-nav-x li a, #maia-nav-y li a { display: block; margin: -6px 0px; padding: 6px 0px; }
+	#maia-nav-x li, #maia-nav-x li.active a, #maia-nav-x li.active li.active a, #maia-nav-y li, #maia-nav-y li.active a, #maia-nav-y li.active li.active a { font-weight: bold; }
+	#maia-nav-x li a, #maia-nav-x li.active li a, #maia-nav-y li a, #maia-nav-y li.active li a { font-weight: normal; }
+	#maia-nav-x li li a:hover, #maia-nav-x li li.active a, #maia-nav-x li.active li a:hover, #maia-nav-x li.active li.active a, #maia-nav-y li a:hover, #maia-nav-y li.active a, #maia-nav-y li.active li a:hover, #maia-nav-y li.active li.active a { color: rgb(22, 68, 149); }
+	#maia-nav-x li li a, #maia-nav-x li.active li a, #maia-nav-y li a, #maia-nav-y li.active li a { color: rgb(36, 93, 193); }
+	#maia-nav-y { float: left; margin: 0px 0px 120px; width: 14.1104%; }
+	#maia-nav-y + .maia-article { float: right; width: 82.8221%; }
+	#maia-nav-y + .maia-article > :first-child, #maia-nav-y + .maia-article > .maia-teleport + h1, #maia-nav-y + .maia-article > .maia-nav-aux + h1, #maia-nav-y + .maia-article > .maia-nav-aux + .maia-teleport + h1 { margin-top: 0px; }
+	#maia-nav-y ul ul, #maia-nav-y li { border: medium solid rgb(238, 238, 238); }
+	#maia-nav-y li { border-width: 0px 0px 1px; padding: 9px 0px; }
+	#maia-nav-y li:last-child { border: 0px none; }
+	#maia-signature { clear: both; margin: 120px auto 0px; max-width: 978px; min-height: 4px; }
+	#maia-signature:after, #maia-signature:before { content: ""; float: right; height: 4px; }
+	#maia-signature:after, [dir="rtl"] #maia-signature:before { border-left: 34px solid rgb(0, 137, 250); border-right: 35px solid rgb(255, 0, 43); }
+	#maia-signature:before, [dir="rtl"] #maia-signature:after { border-left: 35px solid rgb(255, 169, 0); border-right: 34px solid rgb(0, 167, 83); }
+	#maia-footer { background: none repeat scroll 0% 0% rgb(245, 245, 245); clear: both; }
+	#maia-footer-global, #maia-footer-local { padding: 10px 15px; }
+	#maia-footer-global { border-top: 1px solid rgb(238, 238, 238); font-size: 11px; line-height: 2.19; list-style: none outside none; }
+	#maia-footer-global ul { margin: 0px; }
+	#maia-footer-global li { display: inline; }
+	#maia-footer-global li + li:before { content: "·"; padding: 0px 3px; }
+	#maia-footer-local { background: none repeat scroll 0% 0% rgb(249, 249, 249); border-top: 1px solid rgb(245, 245, 245); min-height: 24px; }
+}
+@media screen and (max-width: 767px) {
+	#maia-header { min-height: 33px; padding: 9px 15px 8px; }
+	#maia-header h1, #maia-header h2 { float: none ! important; }
+	#maia-header h1 a, #maia-header h2 a { display: block; }
+	#maia-header h1 { font-size: 24px; }
+	#maia-header h1 img { height: 31px; margin: -2px 0px -3px; }
+	#maia-header h2 { background-image: radial-gradient(farthest-side at center top , rgba(0, 0, 0, 0.04) 0px, transparent 100%); border-top: 1px solid rgb(225, 225, 225); font-family: arial,sans-serif; font-size: 11px; line-height: 1.81; margin: 8px 0px -8px; padding: 1px 0px 0px; }
+	#maia-header h2:before { content: none; }
+	#maia-header h2, #maia-header h2 a { color: rgb(99, 102, 106); }
+	#maia-nav-y { float: none ! important; margin: 0px 0px 30px ! important; width: auto; }
+	#maia-nav-y + .maia-article { float: none ! important; margin: 0px ! important; width: 100% ! important; }
+	#maia-signature { margin: 90px auto 0px; min-height: 3px; }
+	#maia-signature:after, #maia-signature:before { height: 3px; }
+	#maia-signature:after, [dir="rtl"] #maia-signature:before { border-width: 0px 25.5px 0px 26.25px; }
+	#maia-signature:before, [dir="rtl"] #maia-signature:after { border-width: 0px 26.25px 0px 25.5px; }
+}
+@media screen, projection {
+	.maia-cols { margin: 0px -1.53374%; width: 103.067%; }
+	.maia-cols:after { clear: both; content: " "; display: block; height: 0px; visibility: hidden; }
+	.maia-col-1, .maia-col-2, .maia-col-3, .maia-col-4, .maia-col-5, .maia-col-6, .maia-col-7, .maia-col-8, .maia-col-9, .maia-col-10, .maia-col-11, .maia-col-12 { float: left; margin: 0px 1.4881% 20px; }
+	.maia-col-3 { width: 22.0238%; }
+	.maia-col-6 { width: 47.0238%; }
+}
+@media screen and (max-width: 767px) {
+	.maia-cols { margin: 0px ! important; width: 100% ! important; }
+	.maia-col-1, .maia-col-2, .maia-col-3, .maia-col-4, .maia-col-5, .maia-col-6, .maia-col-7, .maia-col-8, .maia-col-9, .maia-col-10, .maia-col-11, .maia-col-12 { clear: both; float: none ! important; margin: 0px 0px 20px ! important; width: 100% ! important; }
+}
+@media screen, projection, print {
+}
+@media screen, projection {
+	#maia-header .maia-util > :first-child { margin: 0px; }
+	.maia-breadcrumb { font-size: 11px; line-height: 1.82; margin: 0px 0px 20px; min-height: 28px; overflow: hidden; }
+	.maia-breadcrumb ol { margin: 0px auto; max-width: 978px; padding: 12px 0px; }
+	.maia-breadcrumb ol:after { clear: both; content: " "; display: block; height: 0px; visibility: hidden; }
+	.maia-breadcrumb li { float: left; font-weight: bold; list-style: none outside none; }
+	.maia-breadcrumb li a { font-weight: normal; margin: 0px 5px 0px 0px; padding: 1px 0px 0px; }
+	.maia-breadcrumb li + li:before { content: "›"; padding: 0px 6px 0px 3px; }
+	button.maia-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+	form input:not([type]), form input[type="text"], form textarea { border-width: 1px; border-style: solid; border-right: 1px solid rgb(235, 235, 235); border-color: rgb(220, 220, 220) rgb(235, 235, 235) rgb(235, 235, 235); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(68, 68, 68); font-family: arial,sans-serif; line-height: normal; padding: 6px 10px; width: 300px; }
+	form input:focus:not([type]), form input[type="text"]:focus, form textarea:focus { border-color: rgb(94, 148, 255); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset; outline: 0px none; }
+	form input[disabled]:not([type]), form input[type="text"][disabled], form textarea[disabled] { background-color: rgb(235, 235, 235); }
+	form .maia-form-error input:not([type]), form .maia-form-error input[type="text"], form .maia-form-error textarea { border-color: rgb(221, 75, 57); }
+	.maia-aside > :first-child, .maia-notification > :first-child, .maia-promo > :first-child { margin-top: 0px; }
+	.maia-aside > :last-child, .maia-notification > :last-child, .maia-promo > :last-child { margin-bottom: 0px; }
+	.maia-locales { background: url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFpQTFRFW8b9S7X4I5T0ndX8qN/+Zsz/Oqv4MKL3UL788Pb7KZz2R634yuj9////3PD+vOL9itf++fn5p9b7rNn8cs/97vD/a8D/hdD/YbL4lt3/eNj+eLL7c8b+AAAAaH1gDwAAAB50Uk5T//////////////////////////////////////8A7BgcXgAAAJtJREFUeNpciosOgyAMRduBlMrTt27j/39zBWNmPAm9t4fCkrs7OcIGwuyHEFJX67sOyOxnmCO330rHWR9a64PblbXWa6slZCYJQMRBX7Bs1QREJTG2huCcGyZ1MrFsYIxJyigJmUkCiAj52042dkTN0MoeCT2vVA32gpliiKOpdYW4968b+wLlYqxC8m+K75+mLO5pSvnI+wkwAHuCDQU2Y3BZAAAAAElFTkSuQmCC") no-repeat scroll left center transparent; float: right; padding: 0px 0px 0px 24px; }
+	.maia-locales label span { height: 1px; left: -10000px; overflow: hidden; position: absolute; top: auto; width: 1px; }
+	.maia-locales select { line-height: 3.08; margin: -10px 0px; }
+	.google .maia-locales select { display: none; }
+}
+@media screen and (max-width: 767px) {
+	.maia-locales { float: none ! important; margin: 10px 0px; }
+}
+@media screen, projection, print {
+	.policy-footer-sitemap:last-of-type { margin-bottom: 30px; }
+	.policy-footer-sitemap { padding-top: 10px; }
+	.policy-footer-sitemap ul { list-style: none outside none; }
+	.policy-footer-sitemap ul { list-style: none outside none; margin-left: 0px; margin-right: 0px ! important; overflow: hidden; }
+	.policy-footer-sitemap ul a { color: rgb(17, 85, 204); display: block; }
+	.policy-footer-sitemap h3 { font-size: 1em; margin-top: 0px; }
+}
+@media only screen and (max-width: 767px) {
+}

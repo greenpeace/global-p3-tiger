@@ -1,0 +1,373 @@
+/* ::::: http://support.microsoft.com/Styles/oneMscomMaster.css ::::: */
+
+html, body, form, div, h1, h2, h3, h4, h5, h6, li, ol, p, ul { margin: 0px; padding: 0px; }
+.cssClear { clear: both; height: 0px; margin: 0px; padding: 0px; }
+a:link, a:visited { text-decoration: none; }
+img { border: medium none; }
+html, body { height: 100%; }
+body { width: 100%; min-height: 25px; }
+div.form-bottom { position: relative; }
+div.form-bottom-inner { position: absolute; top: -400px; width: 100%; min-width: 960px; height: 400px; }
+div.stage { position: relative; z-index: 1; margin: 0px auto; width: 960px; }
+div.stage {  }
+div.stage-bg-bot {  }
+div.stage-content { padding-left: 20px; padding-right: 20px; }
+div.stage-bg-top { position: absolute; z-index: -1; top: 0px; height: 85px; width: 100%; }
+div.stage-bg-mid { position: absolute; z-index: -1; top: 85px; height: 345px; width: 100%; }
+div.stage-bg-bot { position: absolute; z-index: -1; top: 430px; bottom: 0px; width: 100%; }
+div.utility-bar { margin-bottom: 10px; position: relative; z-index: 999; }
+div.main-content { min-height: 555px; margin-bottom: 20px; }
+div.footer { min-height: 50px; clear: both; }
+/* ::::: http://support.microsoft.com/common/css/default/default.css?80 ::::: */
+
+.gsfx_brnd_PageContainer ol, .gsfx_brnd_PageContainer ul { margin: 16px 0px 16px 40px; padding: 0px; }
+.gsfx_brnd_PageContainer h1 { margin: 21px 0px; }
+.gsfx_brnd_PageContainer h2 { margin: 20px 0px; }
+.gsfx_brnd_PageContainer h3 { margin: 19px 0px; }
+.gsfx_brnd_PageContainer h4 { margin: 21px 0px; }
+.gsfx_brnd_PageContainer h5 { margin: 22px 0px; }
+.stage-content > .main-content {  }
+body, select, input, form { font-size: 100%; margin: 0px; }
+body { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); height: auto; }
+html { overflow-y: scroll; height: auto; }
+input[type|="radio"], input[type|="checkbox"] { margin-right: 3px; padding: 4px; }
+img { font-size: 65%; border: medium none; }
+a { color: rgb(0, 114, 198); text-decoration: none; }
+a:hover { color: rgb(7, 103, 154); text-decoration: underline; }
+#contentArea { width: 100%; }
+table.primaryTable, table#primaryContentTable { width: 100%; table-layout: fixed; }
+.primaryLeftColumn, .primaryMainColumn, .primaryThinColumn { vertical-align: top; margin: 0px; padding: 0px; }
+table.primaryTable td.primaryMainColumn { width: 100%; }
+table.primaryTable td.primaryThinColumn { width: 180px; }
+.wp h3 { font-size: 70%; font-weight: bold; margin: 0px; padding: 0px; }
+#thinColumn { width: 180px; overflow: hidden; font-size: 13px; }
+#thinColumn { font-weight: 400; }
+#thinColumn a { color: rgb(0, 114, 198); font-size: 13px; }
+#thinColumn div, #thinColumn ul { text-overflow: ellipsis; white-space: normal; }
+#thinColumn .wp, #thinColumn .wp .wp, #thinColumn .wp div, #thinColumn .wp div .wp div, #thinColumn .lct, #thinColumn .wp table, #thinColumn .textColumn { border: 0px none; margin: 0px; padding: 0px; width: auto; }
+#thinColumn .wp H3 { z-index: 0; width: 100%; }
+#thinColumn H3, #thinColumn .wp H3 { font-size: 16px; font-weight: normal; margin: 0px; }
+#thinColumn .wp H3 .linkConTop { display: block; height: 7px; width: 100%; margin-top: -10px; z-index: 1; }
+#thinColumn .wp H3 .linkCon { display: block; z-index: 2; position: relative; background: none repeat scroll 0% 0% transparent; margin-top: 20px; padding: 0px 0px 3px; }
+#thinColumn ul { padding-left: 24px; padding-right: 10px; margin: 0px; font-size: 13px; }
+#thinColumn li { overflow: visible; }
+#thinColumn div.center, #thinColumn div a img { text-align: center; margin: 0px auto; }
+#thinColumn span { text-decoration: none; }
+#mainColumn .wp div, #mainColumn .wp div .wp div { border: medium none; margin: 0px; padding: 0px; }
+#mainColumn .wp, #mainColumn .wp .wp { border: medium none; margin: 5px 0px; padding: 5px 0px; }
+.wp { padding: 10px; }
+.wp div.fms { background: none repeat scroll 0% 0% rgb(237, 237, 237); border-width: 2px medium; border-style: solid none; border-color: rgb(153, 153, 153) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin: 0px 0px 5px; padding: 5px 10px; }
+.wp .fms .SURVEYINTROTEXT { font-size: 70%; font-weight: bold; color: rgb(165, 42, 42); padding: 10px; }
+.wp .fms .ANSWERTEXT { font-size: 65%; line-height: 2em; }
+.wp .fms .NAVIGATION {  }
+.wp .fms .NAVBUTTON { font-size: 65%; }
+.wp .fms .QUESTIONCONTAINER { margin-bottom: 5px; margin-left: 1px; margin-right: 3px; line-height: 1.5em; width: auto; padding: 3px 0px 0px 10px ! important; }
+.wp .fms .QUESTIONTEXT { font-size: 65%; font-weight: bold; padding-bottom: 5px; }
+.wp .fms .QUESTIONINSTRUCTION { font-size: 65%; padding-bottom: 2px; }
+.wp .fms .QUESTIONREQUIRED { font-size: 75%; color: red; font-weight: bold; }
+.wp .fms .ANSWERBOX { font-size: 70%; margin: 0px; width: 90%; }
+#contentArea { direction: ltr; text-align: left; }
+.pz .wp .savedNewsgroup table tr th, .pz .alignColumn, .lcr table th, .dllHelpSearch table caption, .dllHelpResults table th, .dllHelpInfo table th, .wp .fms .SURVEYINTROTEXT, .wp .fms .SURVEYTHANKYOUTEXT, .wp .fms .ANSWERTEXT, .wp .fms .GHR_QUESTIONTEXT, .wp .fms .QUESTIONREQUIRED, .wp .fms .NAVIGATION td, .wp.m2 .list caption { text-align: left; }
+#thinColumn { float: right; }
+#mainColumn { direction: ltr; text-align: left; }
+td.primaryThinColumn { padding-left: 20px; }
+#thinColumn #ATList { background-color: white; width: 173px; border: 1px solid rgb(198, 208, 218); display: block; padding-left: 3px; z-index: 100; }
+#ATList ul { list-style: none outside none; padding: 0px; width: auto; }
+#thinColumn #ArticleTranslations { overflow: visible; margin-bottom: 15px; z-index: 4; }
+#ArticleTranslations .ATtext { width: 173px; height: 18px; background-color: white; clear: both; font-size: 13px; border: 1px solid rgb(198, 208, 218); padding-left: 3px; }
+#ArticleTranslations .ATtext span a { float: left; width: 156px; height: 18px; line-height: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#ArticleTranslations .ATtext a { float: right; cursor: pointer; width: 17px; height: 18px; }
+#divSsbAdContent { display: none; margin-top: 30px; margin-bottom: 30px; }
+/* ::::: http://support.microsoft.com/common/css/default/XmlContent.css?80 ::::: */
+
+.kb { font-size: 13px; margin: 0px 0px 5px; width: auto; color: rgb(51, 51, 51); }
+.kb a { color: rgb(0, 114, 198); }
+.kb td { padding: 0px; vertical-align: top; }
+.kb ol, .kb ul, .kb li { position: inherit; }
+.kb div.pLink { display: none; font-size: 11px; font-weight: normal; }
+.kb .toc img, .kbSurvey .topOfPage img, .kb .topOfPage img { vertical-align: baseline; margin: 0px 3px; }
+.kb h1.title { font-size: 30px; margin: 20px 0px 10px; font-weight: lighter; word-wrap: break-word; }
+.kb h2 { font-size: 20px; }
+.kb h3 { font-size: 20px; font-weight: lighter; }
+.kb h4 { font-size: 16px; }
+.kb h5 { font-size: 13px; font-weight: 600; }
+.kb .graphic { margin: 0px 10px; padding: 1px; }
+.kb div.expandcollapseall { display: none; }
+.kb div.notice { margin: 20px 0px 0px; background-color: rgb(245, 245, 245); padding: 5px 10px 10px; font-size: 13px; }
+.kb div.notice a { font-size: 13px; }
+.kb .notice h5 { margin: 0px 0px 5px; }
+.kb div.articleProperty { color: rgb(153, 153, 153); padding: 2px; font-size: 11px; margin-bottom: 17px; }
+.kb .section h2.subTitle.tocTitle, .kb .section h2.subTitle.tocTitle span { background-color: rgb(245, 245, 245); }
+.kb .section h2.subTitle.tocTitle span { padding-bottom: 12px; padding-top: 12px; }
+.kb h2 { margin: 0px 0px 5px; }
+.kb .section h2.subTitle, .kbSurvey h2.subTitle { width: 100%; cursor: pointer; background-color: rgb(209, 211, 212); position: relative; overflow: hidden; }
+.kbSurvey { margin: 0px; }
+.kbSurvey.noShow, .kb .noShow { display: none; }
+.kbSurvey .topOfPage { margin: 0px 52px; }
+.kbSurvey .topOfPage a { color: rgb(0, 114, 198); font-size: 13px; }
+.kbSurvey .bookmark a { display: block; height: 0px; }
+.kb .section h2.subTitle span, .kbSurvey h2.subTitle span { background-color: rgb(209, 211, 212); float: left; font-size: 16px; font-weight: lighter; padding: 10px 0px 10px 10px; width: 732px; }
+.kb .section h2.subTitle span a, .kbSurvey h2.subTitle span a { color: rgb(51, 51, 51); }
+.kb div.kb_graphictop, .kb div.kb_tabletop, .kb div.kb_graphictop_open, .kb div.kb_tabletop_open { height: 60px; margin: 0px; }
+.kb span.kb_collapsetext_close, .kb span.kb_expandtext_close, .kb span.kb_expandtext { display: none; }
+.kb span.kb_expandtext_background, .kb span.kb_collapsetext_background { width: 49px; height: 49px; margin: 0px 10px 0px 0px; display: block; float: left; font-weight: normal; }
+.kb span.kb_collapsetext_background { background-image: url('48x48_collapse-image.png'); }
+.kb span.kb_expandtext_background { background-image: url('48x48_expand-image.png'); }
+.kb div.kb_outertablewrapper, .kb div.kb_outergraphicwrapper { margin-bottom: 10px; }
+.kb div.kb_outergraphicwrapper, .kb div.kb_outertablewrapper, .kb table.table { border-width: 0px 3px 2px; }
+.kb div.kb_outergraphicwrapper_closed, .kb div.kb_outertablewrapper_closed { margin: 10px 0px; }
+.kb div.kb_outergraphicwrapper_closed { overflow-y: hidden; }
+.kb div.kb_graphicwrapper .graphic, .kb div.kb_nowrapper .graphic, .kb div.kb_nowrapper table, .kb div.kb_tablewrapper table { position: relative; z-index: 1000; }
+.kb div.kb_graphicwrapper, .kb div.kb_tablewrapper, .kb div.kb_codecontent, .kb div.kb_errorcontent, .kb div.kb_intextbody { width: 100%; margin: 0px; padding: 0px; }
+.kb div.kb_graphicwrapper, .kb div.kb_tablewrapper { border-bottom-width: 2px; background-color: white; overflow-x: auto; position: relative; }
+.kb div.kb_graphicwrapper .graphic { padding: 1px; margin: 0px; }
+.kb .section h3 { margin: 15px 0px; }
+.kb .section h4 { margin: 15px 0px; }
+.kb .section h5 { margin: 8px 0px 5px; }
+.kb div.indent { padding: 0px 20px 10px; }
+.kb div.sbody { margin: 12px 0px 30px 40px; }
+.kb div.sbody, .kb .appliesTo, .kb .keywords, .kb .disclaimer { margin-bottom: 12px; }
+.kb .appliesTo ul, .kb .appliesTo li { position: static ! important; font-size: 11px; }
+.kb .appliesTo ul { margin-top: 0px; }
+.kb div.sbody div.sbody, .kb .rtl div.sbody div.sbody { margin: 0px; }
+.kb .topOfPage { margin: 15px 0px 30px; }
+.kb .appliesTo h5 { font-size: 13px; margin: 5px 0px; }
+.kb .userInput { font-weight: bold; }
+.kb .keywords td { vertical-align: bottom; }
+.kb .keywords td.header { vertical-align: top; }
+.kb .keywords td.header h5 { font-size: 13px; margin: 0px; padding: 0px; white-space: nowrap; }
+#contentArea #mainColumn #fmsSurvey { padding-left: 32px; padding-right: 0px; color: rgb(51, 51, 51); margin-left: 10px; margin-right: 0px; }
+.wp div.fms { background-color: transparent; }
+#mainColumn .wp div.fms .QUESTIONTEXT { font-size: 16px; font-weight: normal; margin-bottom: 5px; margin-top: 20px; }
+.wp .fms .ANSWERTEXT { font-size: 13px; line-height: 23px; }
+.wp .fms .CHOICEROW { padding: 5px 5px 3px 10px; }
+.wp .fms .CHOICEROW input[type|="radio"] { padding: 0px 4px; }
+.wp div.fms .NAVBUTTON { background-color: transparent; border: 1px solid rgb(153, 153, 153); font-size: 13px; line-height: 13px; padding: 3px 5px; margin: 0px 3px; }
+.wp .fms .QUESTIONCONTAINER { line-height: 13px; }
+#mainColumn .wp .fms .NAVIGATION { margin-top: 6px; }
+.wp .fms .ANSWERBOX { margin-top: 8px; width: 728px; }
+.kbSurvey h2 { margin: 0px; }
+/* ::::: http://support.microsoft.com/common/css/default/branding.css?80 ::::: */
+
+body { margin: 0px; }
+#gsfx_brnd_PageWrapper { width: 984px; text-align: left; margin: 0px auto 30px; position: relative; }
+#gsfx_brnd_PageContainer { min-height: 430px; padding: 0px; position: relative; width: inherit; }
+#gsfx_brnd_ContentContainer { background-color: rgb(255, 255, 255); width: 100%; padding: 0px; position: inherit; z-index: 2; }
+#contentArea { background: none repeat scroll 0% 0% rgb(255, 255, 255); border-bottom: 1px solid rgb(0, 0, 0); display: table; width: 100%; position: relative; z-index: 2; }
+.gsfx_brnd_TransBG { margin: 0px; }
+#frmsrch { display: inline; }
+#gsfx_bsrch_divQuery { height: 24px; margin: 5px 0px 5px 5px; background-color: rgb(255, 255, 255); display: inline; position: relative; }
+.gsfx_bsrch_container { width: 375px; height: 32px; background: url('ss_live_glass_border.png') no-repeat scroll right center transparent; float: right; margin: 15px 2px; position: relative; }
+#gsfx_bsrch_btnimg { height: 20px; width: 20px; vertical-align: middle; margin: 0px; cursor: pointer; }
+#gsfx_cat_sel { height: 24px; width: 13px; margin-top: 5px; margin-right: 5px; float: left; position: relative; cursor: pointer; }
+#gsfx_bsrch_divQuery #gsfx_bsrch_query { display: inline; font-size: 11px; height: 18px; margin: 1px 0px 1px 2px; border: 0px none; vertical-align: middle; padding: 1px; }
+html body, html select, html input, html form, html textarea { font-family: Segoe UI,Arial,Verdana,Tahoma,sans-serif; }
+#gsfx_brnd_PageWrapper { float: left; }
+div.stage, div.mstHdr { width: 1024px; }
+#contentArea { border-bottom: 0px none; }
+#NavigatorTextBox { opacity: 0; height: 1px; width: 1px; }
+.hidden { position: absolute; left: auto; top: auto; width: 1px; height: 1px; overflow: hidden; }
+body { color: rgb(0, 0, 0); background-color: rgb(236, 236, 236); }
+body, input { font-size: 100%; }
+body, select { font-family: Segoe UI,Arial,Verdana,Tahoma,sans-serif; }
+div.form-bottom-inner { background-color: rgb(236, 236, 236); left: 0px; }
+div.stage-bg-top { background-color: rgb(255, 255, 255); left: 0px; }
+div.stage-bg-mid { background-color: rgb(255, 255, 255); left: 0px; }
+div.stage-bg-bot { background-color: rgb(255, 255, 255); left: 0px; }
+div.stage { padding: 0px 40px; width: 984px; }
+div.stage-content { padding: 0px; }
+body { background-color: rgb(255, 255, 255); }
+div.form-bottom-inner { background-color: rgb(255, 255, 255); }
+div.stage-bg-top { background-color: rgb(255, 255, 255); }
+div.stage-bg-mid { background-color: rgb(255, 255, 255); }
+div.stage-bg-bot { background-color: rgb(255, 255, 255); }
+/* ::::: http://support.microsoft.com/Styles/onemscomcomponents.css ::::: */
+
+.oneMscomComp, .oneMscomComp div, .oneMscomComp h1, .oneMscomComp h2, .oneMscomComp h3, .oneMscomComp h4, .oneMscomComp h5, .oneMscomComp h6, .oneMscomComp li, .oneMscomComp ol, .oneMscomComp p, .oneMscomComp ul { margin: 0px; padding: 0px; }
+.oneMscomComp a { cursor: pointer; }
+.oneMscomComp a:link, .oneMscomComp a:visited { text-decoration: none; }
+.oneMscomComp a:hover, .oneMscomComp a:active { text-decoration: underline; }
+.oneMscomComp img { border: medium none; }
+.oneMscomComp ol, .oneMscomComp ul { list-style-type: none; }
+.oneMscomComp .cssClear { clear: both; height: 0px; margin: 0px; padding: 0px; }
+/* ::::: http://support.microsoft.com/Styles/oneMscomListLayout.css ::::: */
+
+/* ::::: http://support.microsoft.com/Styles/oneMscomBlade.css ::::: */
+
+.mstHdrV3 { margin-bottom: 20px; }
+.mstHdrV3 .mstHdr_PriRow { position: relative; min-height: 26px; }
+.mstHdrV3 .mstHdr_SecRow { position: relative; }
+.mstHdrV3 .mstHdr_StaticSec11 { display: inline-block; margin-top: 20px; }
+.mstHdrV3 .mstHdr_StaticSec12 { display: inline-block; margin-top: 18px; }
+.mstHdrV3 .mstHdr_StaticSec121 { margin-bottom: 27px; }
+.mstHdrV3 .mstHdr_StaticSec121 {  }
+.mstHdrV3 .mstHdr_StaticSec21 { margin-top: 25px; }
+.mstHdrV3 .mstHdr_MenuLinkMsLogo { min-height: 25px; }
+.mstHdrV3 .mstHdr_MenuLinkMsLogo a { display: inline-block; }
+.mstHdrV3 .mstHdr_MsLogoImageSmall { height: 20px; }
+.mstHdrV3 .mstHdr_MenuItemSiteIdentity { min-height: 45px; }
+.mstHdrV3 .mstHdr_MenuItemSiteIdentity a { text-decoration: none; }
+.mstHdrV3 .mstHdr_MenuItemsAccount {  }
+.mstHdrV3 .mstHdr_MenuItemAccount { position: relative; }
+.mstHdrV3 a.mstHdr_MenuItemAccountFlyoutLink { display: block; padding-left: 5px; padding-right: 5px; }
+.mstHdrV3 .mstHdr_MenuItemAccountFlyoutLinkArrow { margin-top: 8px; }
+.mstHdrV3 .mstHdr_MenuItemAccountFlyoutLinkArrow img { height: 5px; width: 7px; }
+.mstHdrV3 .mstHdr_FlyoutPos { position: relative; z-index: 999; }
+.mstHdrV3 .mstHdr_Flyout { position: absolute; z-index: 998; background-color: rgb(255, 255, 255); width: 150px; top: -1px; }
+.mstHdrV3 .mstHdr_Flyout { display: none; }
+.mstHdrV3 .mstHdr_AccountItems { padding: 10px; }
+.mstHdrV3 .mstHdr_MenuItemsAccount .mstHdr_MenuItemAccountText { position: relative; z-index: 1000; background-color: rgb(255, 255, 255); }
+.mstHdrV3 .mstHdr_MenuItemsAccount .mstHdr_MenuItemAccountText { border-width: 1px; border-style: solid solid none; border-color: rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.mstHdrV3 .mstHdr_MenuItemsAccount .mstHdr_MenuItemAccountText {  }
+.mstHdrV3 .mstHdr_SignInOut {  }
+.mstHdrV3 .mstHdr_BrandLine { height: 5px; position: absolute; width: 100%; left: 0px; right: 0px; overflow: hidden; }
+/* ::::: http://support.microsoft.com/Styles/onemscomFooter.css ::::: */
+
+.oneMscomFooterV3 { position: relative; }
+.oneMscomFooterV3 ul { list-style-type: none; }
+.mstFooterV3Backround { position: absolute; left: 0px; right: 0px; }
+.mstFooterTop { position: relative; display: inline-block; margin-top: 40px; }
+.mstFooterMsLink { width: 214px; padding-bottom: 10px; }
+.mstFooterMsLinkListTitle { padding-bottom: 10px; }
+.mstFooterMsLinkItem { position: relative; }
+.mstFooterMsLinkItemText { margin-top: 4px; }
+.mstFooterMsLinkItemText a:hover { text-decoration: underline; }
+.mstFooterMsLinkItemLink { width: 26px; height: 26px; }
+.mstFooterMsLinkItemLi { display: inline-block; width: 100%; padding-bottom: 10px; }
+.mstFooterDestLink { width: 468px; }
+.mstFooterDestLinkListOdd { list-style-type: none; width: 214px; }
+.mstFooterDestLinkListEven { width: 214px; }
+.mstFooterDestLinkListTitle { padding-bottom: 10px; }
+.mstFooterDestLinkListItem { padding-bottom: 9px; }
+.mstFooterDestLinkListItem a:hover { text-decoration: underline; }
+.mstFooterDestLinkCatList { padding-bottom: 11px; }
+.mstFooterPopRes { width: 214px; }
+.mstFooterPopResList { padding-bottom: 11px; }
+.mstFooterPopResList li a:hover { text-decoration: underline; }
+.mstFooterPopResListTitle { padding-bottom: 10px; }
+.mstFooterPopResListItem { padding-bottom: 9px; }
+.mstFooterBottom { margin-top: 28px; }
+.mstFooterLocale {  }
+.mstFooterLocaleLogo { position: relative; width: 100%; display: inline-block; margin-bottom: 8px; }
+.mstFooterCorpLinkCopyright { position: relative; margin-bottom: 10px; width: 100%; display: inline-block; }
+.msFooterCorpLinkLi { float: left; }
+.msFooterCorpLinkLi a:hover { text-decoration: underline; }
+#mstLocPickerCtl { font-weight: 600; }
+.mstLcpFlyout { position: absolute; bottom: 26px; z-index: 1010; display: none; }
+.mstLcpFlyout ul { list-style-type: none; width: 214px; }
+.mstLcpFlyout li { padding-bottom: 4px; padding-top: 3px; }
+.mstLcpFlyout li a { text-decoration: none; }
+.mstLcpFlyout li a:hover { text-decoration: underline; }
+.mstLcpMenu a:hover span { text-decoration: underline; }
+.mstLcpLangSites { width: 916px; margin-bottom: 20px; margin-top: 40px; }
+.mstLcpAllSites { position: relative; width: 916px; }
+.mstLcpSearch { position: absolute; top: 0px; }
+.mstLcpAllSitesLinks { margin-bottom: 36px; margin-top: 27px; }
+.mstLcpSearchContainter { display: inline-block; background-color: rgb(255, 255, 255); }
+.mstLcpSearchBorder { display: inline-block; overflow: hidden; position: relative; min-height: 20px; }
+.mstLcpSearchText { width: 350px; background-color: transparent; border: 0px none; vertical-align: top; padding-top: 3px; }
+.mstLcpSearchImg { vertical-align: middle; margin: 0px 3px 0px 0px; cursor: pointer; width: 15px; height: 16px; }
+/* ::::: http://support.microsoft.com/Styles/onemscomNav.css ::::: */
+
+.oneMscomNavV3 a, .oneMscomNavV3 a:visited, .oneMscomNavV3 a:active { text-decoration: none; outline: medium none; }
+.oneMscomNavV3 .mstNavNavItem .mstNavNavItemTab a:hover { text-decoration: none; }
+.oneMscomNavV3 .mstNavNavItem .mstNavNavItemTabTextLink { padding-top: 10px; padding-bottom: 10px; }
+.oneMscomNavV3 .mstNavNavItemTabTextLink { display: inline-block; }
+.oneMscomNavV3 .mstNav1stLvl { display: inline-block; }
+.oneMscomNavV3 .mstNavNavItemFlyout { position: absolute; padding-top: 30px; padding-bottom: 10px; display: none; z-index: 994; width: 100%; }
+.oneMscomNavV3 .mstNav4ColFlyoutList { width: 214px; }
+.oneMscomNavV3 .mstNavNavFirstItem { position: absolute; top: 0px; width: 20px; display: none; }
+.mstHdrV3 { font-family: Segoe UI,Arial,Verdana,Tahoma,sans-serif; width: 984px; }
+.mstHdrV3 .mstHdr_StaticSecLeftAlign { float: left; }
+.mstHdrV3 .mstHdr_StaticSecRightAlign { float: right; }
+.mstHdrV3 .mstHdr_MenuItemSiteIdentity a, .mstHdrV3 .mstHdr_MenuItemSiteIdentity a:link, .mstHdrV3 .mstHdr_MenuItemSiteIdentity a:visited, .mstHdrV3 .mstHdr_MenuItemSiteIdentity a:active { color: rgb(51, 51, 51); font-size: 30px; }
+.mstHdrV3 .mstHdr_MenuItemAccount a, .mstHdrV3 .mstHdr_MenuItemAccount a:link, .mstHdrV3 .mstHdr_MenuItemAccount a:visited, .mstHdrV3 .mstHdr_MenuItemAccount a:active { font-size: 13px; color: rgb(0, 114, 198); }
+.mstHdrV3 .mstHdr_SignInOut #idPPScarab { font-size: 13px; color: rgb(0, 114, 198); }
+.mstHdrV3 .mstHdr_Flyout { border: 1px solid rgb(153, 153, 153); }
+.mstHdrV3 .mstHdr_MenuItemAccountFlyoutLinkText { margin-right: 8px; }
+.mstHdrV3 .mstHdr_MenuItemSignIn { margin-left: 10px; }
+.mstHdrV3 .mstHdr_BrandLine { background-color: rgb(238, 238, 238); }
+.oneMscomNavV3 .mstNavNavItem { float: left; padding-right: 2px; }
+.oneMscomNavV3 .mstNavNavItemMiddle { padding-left: 2px; }
+.oneMscomNavV3 .mstNavNavItem .mstNavNavItemTabText, .oneMscomNavV3 .mstNavNavItem .mstNavNavItemTabTextLink { padding-right: 18px; }
+.oneMscomNavV3 .mstNavNavItemMiddle .mstNavNavItemTabText, .oneMscomNavV3 .mstNavNavItemMiddle .mstNavNavItemTabTextLink { padding-left: 18px; }
+.oneMscomNavV3 .mstNavNavItemFlyout { left: 0px; }
+.oneMscomNavV3 .mstNav4ColMiddle { padding-left: 20px; }
+.oneMscomNavV3 .mstNav4ColFlyoutList { float: left; }
+.oneMscomNavV3 .mstNavNavItemTabTextLink, .oneMscomNavV3 .mstNavNavItemTabText { font-size: 13px; font-weight: 500; color: rgb(0, 0, 0); }
+.oneMscomNavV3 .mstNavNavItemFlyout, .oneMscomNavV3 .selected, .oneMscomNavV3 .mstNavNavFirstItem { background-color: rgb(238, 238, 238); }
+.mstFooterDestLinkListOdd, .mstFooterDestLinkListEven { float: left; margin-left: 20px; }
+.mstFooterMsLinkItemText { margin-left: 10px; }
+.mstFooterMsLink, .mstFooterMsLinkItemLink, .mstFooterMsLinkItemText, .mstFooterDestLink, .mstFooterPopRes { float: left; }
+.mstFooterPopRes { margin-left: 20px; }
+.msFooterCorpLinkLi { margin-left: 20px; }
+.mstFooterLocale { float: left; }
+.mstFooterLogo, .mstFooterCorpLink { float: right; }
+.mstFooterCopyRight { float: right; margin-left: 20px; }
+.mstFooterMoreCorpLink { float: right; }
+.oneMscomFooterV3, .mstFooterV3Backround { background-color: rgb(238, 238, 238); }
+.mstFooterMsLinkListTitle { color: rgb(0, 0, 0); font-size: 13px; }
+.mstFooterMsLinkItemText { font-size: 13px; }
+.mstFooterMsLinkItemText a { color: rgb(0, 0, 0); }
+.mstFooterDestLinkListTitle { color: rgb(0, 0, 0); font-size: 13px; }
+.mstFooterDestLinkListItem { font-size: 11px; }
+.mstFooterDestLinkListItem a { color: rgb(0, 96, 166); }
+.mstFooterPopResListTitle { color: rgb(0, 0, 0); font-size: 13px; }
+.mstFooterPopResListItem { font-size: 11px; }
+.mstFooterPopResListItem a { color: rgb(0, 96, 166); }
+.mstFooterCorpLinkCopyright { font-size: 11px; }
+.mstFooterCorpLinkCopyright a { color: rgb(0, 0, 0); }
+.mstFooterCopyRight { color: rgb(0, 0, 0); font-size: 11px; }
+.mstLcpMenuText { margin-left: 10px; float: left; font-size: 13px; font-weight: 600; color: rgb(0, 0, 0); }
+.mstLcpMenuImg { float: left; }
+.mstLcpFlyout { background-color: rgb(238, 238, 238); }
+.mstLcpClose2 { float: right; margin-right: 20px; }
+.mstLcpAllSitesText { font-size: 20px; color: rgb(0, 0, 0); }
+.mstLcpSearch { right: 20px; }
+.mstLcpAllSitesList { float: left; }
+.mstLcpAllSitesLinks li a { font-size: 13px; color: rgb(0, 96, 166); }
+.mstLcpListNotLast { margin-right: 20px; }
+.mstLcpSearchBorder { border: 1px solid rgb(238, 238, 238); }
+.mstLcpSearchText { font-size: 13px; }
+div.gsfx_bsrch_container { background-image: none; float: none; height: 24px; margin: 0px; width: auto; }
+#gsfx_bsrch_divQuery { background-color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); display: block; height: 22px; margin: 0px; }
+#gsfx_bsrch_divQuery #gsfx_bsrch_query { background-color: transparent; font-size: 75%; height: 16px; margin: 0px 2px; padding: 2px 2px 0px; vertical-align: top; }
+#gsfx_bsrch_divQuery #gsfx_bsrch_btnimg { margin-left: 0px; margin-top: 3px; vertical-align: top; }
+#gsfx_cat_sel { margin-right: 0px; margin-top: 0px; width: 13px; }
+#gsfx_bsrch_query { color: Black; font-style: normal; }
+/* ::::: http://support.microsoft.com/common/css/gps/wayfinder.css?80 ::::: */
+
+.wayfinder { height: 143px; background: none repeat scroll 0% 0% rgb(0, 114, 198); color: rgb(51, 51, 51); position: relative; z-index: 10; }
+.wayfinder a, .wayfinder a:hover { color: rgb(255, 255, 255); text-decoration: none; }
+.wayfinder .products { margin-left: 220px; }
+.wayfinder .modalities { width: 220px; float: left; }
+.wayfinder .modalities a, .wayfinder .modalities a:hover { color: White; height: 100%; width: 100%; display: table; vertical-align: middle; font-size: 16px; }
+.wayfinder .modalities a span { display: table-cell; vertical-align: middle; height: 100%; overflow: hidden; padding-left: 15px; }
+.wayfinder .modalities a span > span { display: inline-block; max-width: 170px; padding-left: 3px; height: auto; }
+.wayfinder .modalities a span > img { display: inline-block; }
+.wayfinder .modalities ul { background: none repeat scroll 0% 0% rgb(0, 32, 80); height: 100%; }
+.wayfinder .modalities li { border-bottom: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); overflow: hidden; }
+.wayfinder .modalities li.selected { background: none repeat scroll 0% 0% rgb(0, 114, 198); border-right-color: rgb(0, 114, 198); }
+.wayfinder .modalities li.selected a { font-weight: bold; }
+.wayfinder .modalities li .arrow { margin-left: 10px; display: none; }
+.wayfinder .modalities li.selected .arrow { display: inline; }
+.wayfinder .modalities li { height: 47px; }
+.wayfinder .products h3 { padding: 0px; margin: 0px 0px 0px 20px; font-size: 16px; font-weight: normal; color: rgb(255, 255, 255); height: 48px; line-height: 45px; }
+.wayfinder .products > ul { margin-left: 10px; }
+.wayfinder .products > ul > li { float: left; width: 80px; height: 95px; position: relative; }
+.wayfinder .products > ul > li.last { margin-left: 10px; width: 120px; }
+.wayfinder .products > ul > li.last span.icon img { position: absolute; top: 50px; right: 1px; }
+.wayfinder .products > ul > li.last span.title { text-align: center; width: 100px; }
+.wayfinder .products > ul > li a { display: block; height: 100%; text-align: left; font-size: 13px; overflow: hidden; line-height: 15px; cursor: pointer; }
+.wayfinder .products > ul > li span { display: block; }
+.wayfinder .products > ul > li span.icon { position: inherit; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; }
+.wayfinder .products > ul > li span.title { position: absolute; left: 4px; top: 55px; text-align: center; width: 100%; }
+.wayfinder .products > ul > li span.selected-indicator { position: absolute; left: 4px; bottom: 0px; display: block; width: 100%; text-align: center; }
+.wayfinder .products > ul > li span.selected-indicator img { width: 15px; height: 7px; }
+.wayfinder .products > ul > li .show-when-selected { display: none ! important; }
+.wayfinder .products > ul ul { left: 0px; top: 100%; position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 2px solid rgb(209, 211, 212); display: none; min-width: 200px; }
+.wayfinder .products > ul li:hover { background: none repeat scroll 0% 0% rgb(0, 114, 198); }
+.wayfinder .products > ul ul li:hover a { color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline; }
+.wayfinder .products > ul ul li a { padding: 10px 30px 10px 10px; color: rgb(51, 51, 51); text-align: left; white-space: nowrap; overflow: visible; }
+.wayfinder ul { list-style: none outside none; padding: 0px; margin: 0px; }
+.tocTitle, #tocDiv { display: none; }

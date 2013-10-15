@@ -1,0 +1,20 @@
+html, body { margin: 0px; padding: 0px; }
+#artisanalOpen { position: relative; width: 960px; height: 520px; background-color: rgb(0, 174, 239); background-image: url('open-background-4.jpg'); color: rgb(255, 255, 255); }
+#artisanalLogo { position: absolute; top: 235px; left: 25px; width: 247px; }
+#artisanalFormContainer { position: absolute; top: 36px; right: 41px; width: 360px; height: 439px; background-image: url('form_background_blue-2.png'); background-clip: padding-box; }
+#artisanalTagline { position: absolute; top: 40px; left: 32px; width: 291px; font-size: 15px; font-family: serif; }
+#artisanalFormContainer input[type="text"] { position: absolute; padding: 11px 10px; width: 127px; border: 0px none; background-color: transparent; background-image: url('form_input_blue.png'); background-repeat: no-repeat; color: rgb(255, 255, 255); font-size: 15px; font-family: serif; }
+#artisanalFormContainer input[type="checkbox"], #artisanalPrivacyLabel, #artisanalCountry { position: absolute; }
+#Firstname, #EMAIL, #artisanalPrivacy, #artisanalCountry { left: 30px; }
+#Lastname, #Mobile { right: 30px; }
+#Firstname, #Lastname { top: 119px; }
+#EMAIL, #Mobile { top: 169px; }
+#artisanalCountry { width: 144px; top: 220px; background-color: transparent; color: rgb(221, 221, 221); border: 0px none; height: 40px; padding-top: 7px; padding-left: 10px; font-size: 14px; font-family: serif; background-image: url('form_input_blue.png'); -moz-appearance: caret; }
+#artisanalCountry option { background-color: rgb(8, 70, 107); color: rgb(255, 255, 255); }
+#artisanalPrivacy, #artisanalPrivacyLabel { top: 279px; }
+#artisanalPrivacyLabel { left: 55px; color: rgb(13, 73, 108); }
+#artisanalPrivacyLabel a { color: rgb(245, 252, 249); }
+#artisanalButton { position: absolute; bottom: 36px; left: 30px; cursor: pointer; }
+#lastAnalyticsSource, #lastAnalyticsMedium, #lastAnalyticsTerm, #lastAnalyticsContent, #lastAnalyticsCampaignName, #artisanal_fishermen { display: none; }
+input:-moz-placeholder { color: rgb(221, 221, 221); font-family: serif; }
+#artisanalErrors { position: absolute; top: 218px; left: 178px; z-index: 100; display: block; padding: 5px; width: 167px; background-color: rgb(0, 175, 233); color: rgb(255, 0, 0); font-size: 0.9em; cursor: pointer; }

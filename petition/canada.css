@@ -1,0 +1,8 @@
+body { background-color: rgb(0, 0, 0); }
+.centered { position: relative; left: 50%; margin-left: -638px; background-image: url('arctic30_splash1bb.jpg'); background-repeat: no-repeat; width: 1310px; height: 750px; }
+.petition1 { position: absolute; top: 500px; left: 20px; width: 250px; height: 80px; }
+.petition2 { position: absolute; top: 500px; left: 1000px; width: 250px; height: 80px; }
+.donate1 { clear: both; position: absolute; top: 590px; left: 20px; width: 250px; height: 80px; }
+.donate2 { clear: both; position: absolute; top: 590px; left: 1000px; width: 250px; height: 80px; }
+.hp1 { clear: both; position: absolute; top: 690px; left: 20px; width: 250px; height: 35px; }
+.hp2 { clear: both; position: absolute; top: 690px; left: 1000px; width: 320px; height: 30px; }

@@ -1,0 +1,25 @@
+html, body { margin: 0px; padding: 0px; min-height: 100%; }
+body { position: fixed; top: 0px; right: 0px; width: 100%; font: 600 12px/20px "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif; background: none repeat scroll 0% 0% transparent; visibility: visible; opacity: 1; }
+body.loading { width: 400px; height: 35px; visibility: hidden; opacity: 0; }
+body { -moz-user-select: none; }
+a { text-decoration: none; }
+.tiny_avatar { position: relative; display: block; float: left; width: 24px; height: 24px; background-color: rgb(255, 255, 255); background-size: cover; border-radius: 2px 2px 2px 2px; box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.2); overflow: hidden; }
+.tiny_avatar img { display: none; width: 24px; height: 24px; }
+.button { position: relative; display: block; float: left; height: 24px; margin: 0px 0px 0px 5px; padding: 0px 7px; font-family: "Helvetica Neue",Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-size: 14px; line-height: 24px; font-weight: bold; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.32); text-decoration: none; box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.6) inset, 0px 2px 2px -1px rgba(0, 0, 0, 0.2); border-radius: 2px 2px 2px 2px; background-color: rgb(172, 179, 187); background-image: -moz-linear-gradient(center top , rgb(172, 179, 187) 0px, rgb(137, 143, 152) 100%); -moz-user-select: none; cursor: pointer; }
+.tiny_avatar, .button { background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.7); }
+.button:active { color: rgba(255, 255, 255, 0.8); }
+.button.follow:active:before, .button:active .logo { opacity: 0.8; }
+.tiny_avatar:active { box-shadow: none; }
+.button:active { box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2) inset; }
+.button.blue { background-color: rgb(106, 165, 207); background-image: -moz-linear-gradient(center top , rgb(106, 165, 207) 0px, rgb(87, 145, 187) 100%); }
+.button.follow { padding-left: 24px; }
+.button.follow:before { content: ""; display: block; position: absolute; top: 5px; left: 5px; height: 15px; width: 15px; background: url('iframe_spritesheet.png') repeat scroll -130px 0px transparent; }
+.button.tumblr { background-color: rgb(44, 71, 98); background-image: -moz-linear-gradient(center top , rgb(50, 77, 103), rgb(43, 69, 95)); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 4px rgba(0, 0, 0, 0.11); }
+.button.tumblr .logo { position: relative; display: block; top: -1px; width: 65px; height: 26px; direction: ltr; text-indent: -9999px; padding-top: 0px; background: url('iframe_tumblelog.png') no-repeat scroll 0px -30px transparent; }
+.clearfix:after { content: ""; display: block; clear: both; }
+.iframe_controls { position: absolute; top: 0px; right: 0px; margin: 5px; padding: 0px 2px; border-radius: 2px 2px 2px 2px; white-space: nowrap; height: 26px; }
+body { transition: opacity 0.3s ease-in-out 0.2s; }
+body.loading { transition: none 0s ease 0s ; }
+@media not all, not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+	.button.tumblr .logo { background-image: url('iframe_tumblelog@2x.png'); background-size: 400px 480px; }
+}

@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Apple - Support</title>
+</head>
+<body>
+<frameset cols="100%,*" border="0" frameborder="no">
+<frame marginheight="50" marginwidth="50" src="/error/404.html" name="notfound404">
+</frameset>
+
+</body>
+</html>

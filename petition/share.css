@@ -1,0 +1,68 @@
+/* ::::: https://abs.twimg.com/a/1381705457/tfw/css/tfw.bundle.css ::::: */
+
+body { font: 13px/1.231 arial,helvetica,clean,sans-serif; }
+select, input, button, textarea { font: 99% arial,helvetica,clean,sans-serif; }
+html { margin: 0px; padding: 0px; text-align: center; background: none repeat scroll 0% 0% rgb(244, 244, 244); height: 100%; }
+body { margin: 0px; padding: 0px; text-align: left; direction: ltr; background: linear-gradient(rgb(233, 245, 255), rgb(255, 255, 255) 100px) repeat-x scroll 0% 0% rgb(255, 255, 255); }
+body.nofooter { border-bottom: 1px solid rgb(235, 235, 235); }
+.bar, #bd, #ft, #promo .inner { min-width: 240px; max-width: 640px; width: auto; margin: 0px auto; }
+form { clear: none; margin: 0px; padding: 0px; }
+p, ul { padding: 0px; margin: 0px; }
+body, select, input, button, textarea { font-family: sans-serif; color: rgb(51, 51, 51); }
+a:link, a:visited, a:active, input.textual.link, button.textual.link { color: rgb(34, 118, 187); text-decoration: none; }
+a:hover, input.textual.link:hover, input.textual.link:focus { text-decoration: underline; cursor: pointer; }
+fieldset { margin: 10px 0px; padding: 0px; border: 0px none; }
+fieldset legend { display: none; }
+input[type="text"], input[type="password"], textarea { transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; }
+input[type="text"], input[type="password"], textarea { border: 1px solid rgb(204, 204, 204); border-radius: 4px 4px 4px 4px; }
+.selected.button:focus, input[type="text"]:focus, input[type="password"]:focus, textarea:focus { outline: 0px none; border-color: rgb(85, 190, 241); box-shadow: 0px 0px 8px rgba(82, 168, 236, 0.75); }
+body a.button { color: rgb(0, 0, 0); }
+#bd { padding: 20px; }
+#bd:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.action-information { font-size: 108%; line-height: 140%; font-weight: normal; color: rgb(102, 102, 102); text-shadow: 0px 1px 0px rgb(255, 255, 255); margin: 0px 0px 15px; }
+h2.action-information { font-weight: bold; font-size: 140%; }
+fieldset.sign-in { border: 0px none; padding: 0px; margin: 0px 0px 10px; width: 100%; max-width: 300px; }
+fieldset.sign-in legend { display: none; }
+.sign-in .row { position: relative; display: inline-block; overflow: hidden; background-color: rgba(200, 200, 200, 0.15); padding: 1px 4px; margin: 4px 0px 0px -4px; border-radius: 4px 4px 4px 4px; line-height: 36px; }
+.sign-in .row label { display: block; font-size: 80%; line-height: 180%; }
+.sign-in input.text { padding: 6px; width: 288px; background-color: rgb(255, 255, 255); }
+.sign-in p { line-height: 150%; padding-top: 6px; clear: both; color: rgb(119, 119, 119); }
+#promo { background: none repeat scroll 0% 0% rgb(238, 247, 255); border-top: 1px solid rgb(234, 234, 234); padding: 0px 0px 1em; overflow: hidden; clear: both; }
+#promo .inner { padding: 0px 20px; }
+#promo h2 { font-size: 110%; line-height: 200%; margin: 0.5em 0px; }
+#promo .sign-up.button { float: right; margin-right: -4px; }
+#promo p { margin: 0.5em 0px; }
+#update-form .bd { border-radius: 4px 4px 4px 4px; background: none repeat scroll 0% 0% rgba(200, 200, 200, 0.3); padding: 4px; margin: 15px -4px 0px; }
+#update-form { display: block; }
+#update-form textarea { display: block; background: none repeat scroll 0% 0% rgb(255, 255, 255); resize: vertical; font-size: 108%; padding: 4px; width: 100%; height: 65px; -moz-box-sizing: border-box; border-radius: 4px 4px 4px 4px; }
+#update-form .hd label { position: absolute; left: -999em; }
+#update-form .ft { position: relative; padding-bottom: 15px; }
+.logged-out #update-form fieldset.sign-in, .logged-out form.indent-buttons fieldset.sign-in { float: left; text-align: left; width: 250px; }
+.logged-out #update-form fieldset.sign-in input.text, .logged-out form.indent-buttons fieldset.sign-in input.text { width: 200px; }
+.logged-out #update-form fieldset.submit, .logged-out form.indent-buttons fieldset.submit { margin: 0px 0px 6px 10px; padding-top: 8px; }
+#update-form fieldset.submit, form.indent-buttons fieldset.submit { text-align: right; }
+.logged-out #update-form fieldset.submit .button { margin-right: -4px; }
+html { padding-top: 40px; -moz-box-sizing: border-box; }
+#header { position: fixed; top: 0px; left: 0px; min-height: 40px; width: 100%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7); text-align: center; z-index: 1500; color: rgb(255, 255, 255); background: linear-gradient(rgb(51, 51, 51), rgb(17, 17, 17)) repeat scroll 0% 0% transparent; -moz-user-select: none; cursor: default; }
+#header .bar { position: relative; margin: 0px auto; text-align: left; padding: 0px 20px; }
+#header .logo { margin: 0px; padding: 0px; height: 40px; position: absolute; top: 0px; left: 0px; }
+#header .logo a { display: block; height: 40px; width: 24px; margin: 0px 0px 0px 10px; padding: 0px 10px; color: transparent; text-indent: -999em; background: url('bird-topbar-blue.png') no-repeat scroll 10px 9px transparent; }
+#session, #not-logged-in { float: right; width: 400px; margin-right: 0px; position: relative; }
+#header a:focus, #header a:hover { text-decoration: none; background-color: rgba(255, 255, 255, 0.094); outline: 0px none; }
+#session h2 a:focus, #header a:focus, #session a:focus, #session button:focus, #session input:focus { background-color: rgba(71, 180, 253, 0.5); }
+#not-logged-in { text-align: right; line-height: 40px; }
+#not-logged-in a.register, #not-logged-in a.sign-in { color: rgb(255, 170, 34); font-weight: bold; line-height: 40px; display: inline-block; padding: 0px 5px; }
+#not-logged-in a.register:after, #not-logged-in a.sign-in:after { content: " ›"; font-family: Arial; }
+.button { border-radius: 4px 4px 4px 4px; background: url('bg-btn.gif') repeat-x scroll 0px 0px rgb(221, 221, 221); border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(153, 153, 153); border-style: solid; border-width: 1px; cursor: pointer; display: inline-block; vertical-align: top; font: bold 12px/15px Helvetica Neue,Arial,"Lucida Grande",Sans-serif; margin: 0px; overflow: visible; padding: 5px 9px; text-shadow: 0px 1px rgb(240, 240, 240); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px rgb(248, 248, 248); }
+.button::-moz-focus-inner { padding: 0px; border: 0px none; }
+.button:focus { outline: 0px none; }
+.button:hover, .button:focus { background-position: 0px -6px; border-color: rgb(153, 153, 153) rgb(153, 153, 153) rgb(102, 102, 102); color: rgb(0, 0, 0); text-decoration: none; }
+.button:active { background-image: none; text-shadow: none; outline: 0px none; }
+.button.selected { background-color: rgb(51, 153, 221); background-image: url('bg-btn-blue.gif'); background-position: 0px 0px; border-color: rgb(51, 153, 221) rgb(51, 153, 221) rgb(34, 136, 204); color: rgb(255, 255, 255) ! important; text-shadow: -1px -1px 0px rgb(51, 153, 221); }
+.button.selected:hover, .button.selected:focus { background-position: 0px -210px ! important; border-color: rgb(34, 136, 204); box-shadow: 0px 0px 8px rgba(82, 168, 236, 0.75); }
+.button.selected:active { background-image: none; }
+.button.sign-up { font-weight: bold; background-color: rgb(255, 170, 34); background-image: url('bg-btn-signup.png'); background-position: 0px 0px; border: 1px solid rgb(255, 170, 34); color: rgb(51, 51, 51) ! important; text-shadow: 0px 1px 0px rgb(255, 238, 102); }
+.button.sign-up:hover, .button.sign-up:focus { background-position: 0px -5px; color: rgb(17, 17, 17); text-decoration: none; box-shadow: 0px 0px 5px rgb(255, 170, 34); }
+.button.sign-up:active { background-image: none; }
+html { display: none; }
+html { display: block; }

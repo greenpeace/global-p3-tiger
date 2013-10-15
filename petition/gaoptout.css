@@ -1,0 +1,34 @@
+/* ::::: https://tools.google.com/tools/dlpage/res/c/css/goog.css ::::: */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, form, fieldset, embed, object, applet { margin: 0px; padding: 0px; border: 0px none; }
+body { font-size: 62.5%; font-family: Arial,sans-serif; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+a { color: rgb(0, 0, 204); }
+a:active { color: rgb(255, 0, 0); }
+a:visited { color: rgb(85, 26, 139); }
+p { padding: 0px 0px 1em; }
+h1, h2, h3, h4, h5 { padding: 0px 0px 1em; }
+h1, h2 { font-size: 1.3em; }
+input, select, textarea, option { font-family: inherit; font-size: inherit; }
+/* ::::: https://tools.google.com/tools/dlpage/res/c/css/dlpage.css ::::: */
+
+body { text-align: center; padding: 1.3em 0px; }
+#container { width: 770px; margin: 0px auto; text-align: left; font-size: 1.3em; }
+#header { height: 65px; }
+.logo { float: left; }
+h1 { margin-left: 160px; padding: 0.9em 0px 0.1em; display: none; }
+#content { clear: left; float: left; width: 445px; padding-bottom: 20px; }
+#action { margin-left: 465px; }
+.blue * { margin: 0px; padding: 0px; }
+.blue { line-height: 1.2; max-width: 795px; width: 250px; border: 1px solid rgb(147, 180, 217); background-color: rgb(202, 222, 244); padding: 18px 21px 18px 22px; text-align: center; margin-bottom: 2em; overflow: visible; }
+.blue div.button { background: url('button-1.gif') no-repeat scroll 0% 0% rgb(86, 121, 165); font-size: 1.3em; }
+.blue div.button span { display: block; background: url('button-1.gif') no-repeat scroll right -400px transparent; height: 1%; }
+.blue div.button span span { background: url('button-1.gif') no-repeat scroll left bottom transparent; }
+.blue div.button span span a { display: block; color: rgb(255, 255, 255) ! important; background: url('button-2.gif') no-repeat scroll right bottom transparent; padding: 7px 12px 11px 8px; text-decoration: none; font-weight: bold; }
+.blue p { padding: 1em 0px 0px; }
+#footer { clear: both; padding-top: 1em; text-align: center; color: rgb(102, 102, 102); margin-top: 1em; }
+.langmenu { display: inline; float: right; padding-top: 1em; font-size: 90%; margin-right: 8px; }
+.blue div.button { background: url('g-button-chocobo-1.gif') no-repeat scroll 0% 0% rgb(86, 121, 165); font-size: 1.3em; }
+.blue div.button span { display: block; background: url('g-button-chocobo-1.gif') no-repeat scroll right -400px transparent; height: 1%; }
+.blue div.button span span { background: url('g-button-chocobo-1.gif') no-repeat scroll left bottom transparent; }
+.blue div.button span span a { display: block; color: rgb(255, 255, 255) ! important; background: url('g-button-chocobo-2.gif') no-repeat scroll right bottom transparent; padding: 7px 12px 11px 8px; text-decoration: none; font-weight: bold; }
+.blue { width: 250px; }

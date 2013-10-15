@@ -1,0 +1,242 @@
+/* ::::: http://static.tumblr.com/fftf9xi/QmCmi8cwl/batch.css ::::: */
+
+@font-face {
+	font-family: "Batch-Custom";
+	src: url('batch-custom.eot');
+}
+@font-face {
+	font-family: "Batch-Custom";
+	font-style: normal;
+	font-weight: normal;
+	src: url('undefined') format("woff"), url('undefined') format("truetype");
+}
+.icon-tag-5:before, .icon-spinner-3:before, .icon-speech-bubble-left-2:before, .icon-shuffle:before, .icon-rss:before, .icon-reblog:before, .icon-reblog-circle:before, .icon-heart-full:before, .icon-heart-circle:before, .icon-expand-3:before, .icon-envelope:before, .icon-arrow-right:before, .icon-timeago:before, .icon-menu-2:before, .icon-compose-4:before, .icon-arrow-long-left:before, .icon-arrow-long:before, .icon-play:before, .icon-link:before, .icon-speech-bubble-left-4:before { font-family: 'Batch-Custom'; font-style: normal; font-weight: normal; line-height: 1; }
+.icon-reblog:before { content: ""; }
+.icon-expand-3:before { content: ""; }
+/* ::::: http://static.tumblr.com/fftf9xi/hQOmmjoer/social-icons.css ::::: */
+
+@font-face {
+	font-family: "Social-Icons";
+	src: url('social-icons.eot');
+}
+@font-face {
+	font-family: "Social-Icons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('undefined') format("woff"), url('undefined') format("truetype");
+}
+/* ::::: http://static.tumblr.com/fftf9xi/oBOmp9pab/stylehatch.css ::::: */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio:not([controls]) { display: none; }
+html { font-size: 100%; }
+a:hover, a:active, a:focus { outline: 0px none; }
+img { max-width: 100%; height: auto; vertical-align: middle; border: 0px none; }
+button, input, select, textarea { margin: 0px; font-size: 100%; vertical-align: middle; }
+button, input { line-height: normal; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0px; border: 0px none; }
+input[type="search"] { -moz-box-sizing: content-box; }
+div.grid article footer ul.tumblr-action strong, .photo header a.highres strong { display: block; border: 0px none; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+a.read-more:after, .top-bar nav.minimal a.view-nav .icon:before, section.primary .site-links ul li.ask a:before, section.primary .site-links ul li.submit a:before, section.primary .site-links ul li.rss a:before, section.primary .site-links ul li.archive a:before, section.primary .site-links ul li.random a:before, section.instagram h4 a:after, section.instagram .meta li.comments a:before, section.instagram .meta li.likes a:before, section.liked-posts h4 a:after, div.grid article footer ul li.comments a:before, div.grid article footer ul li.notes a:before, div#main > footer nav ul li.prev a:before, div#main > footer nav ul li.next a:after { font-family: 'Batch-Custom'; font-style: normal; font-weight: normal; line-height: 1; position: relative; top: 2px; font-size: 1.3em; margin-right: 3px; }
+.ui-spinner { position: relative; border-radius: 100% 100% 100% 100%; }
+.ui-spinner .side { width: 50%; height: 100%; overflow: hidden; position: absolute; }
+.ui-spinner .side .fill { border-radius: 999px 999px 999px 999px; position: absolute; width: 100%; height: 100%; animation-iteration-count: infinite; animation-timing-function: linear; }
+.ui-spinner .side-left { left: 0px; }
+.ui-spinner .side-left .fill { left: 100%; border-top-left-radius: 0px; border-bottom-left-radius: 0px; animation-name: ui-spinner-rotate-left; transform-origin: 0px 50% 0px; }
+.ui-spinner .side-right { left: 50%; }
+.ui-spinner .side-right .fill { left: -100%; border-top-right-radius: 0px; border-bottom-right-radius: 0px; animation-name: ui-spinner-rotate-right; transform-origin: 100% 50% 0px; }
+ul { margin: 0px 0px 1.5em; padding: 0px; }
+ul li { margin: 0px; padding: 0px; list-style: none outside none; }
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.4; color: rgb(68, 68, 68); background: none repeat scroll 0% 0% rgb(177, 177, 177); margin: 0px; }
+body * { word-wrap: break-word; }
+p { margin: 0px 0px 1.3em; }
+a { text-decoration: none; color: rgb(0, 142, 201); }
+a:hover { text-decoration: underline; color: rgb(0, 124, 176); }
+h1, h2, h3, h4, h5, h6 { margin: 0px 0px 1em; text-rendering: optimizelegibility; text-transform: uppercase; color: black; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: none; }
+.alpha, h1 { font-size: 28px; font-weight: 700; line-height: 1.4; }
+.beta, div.grid article.quote header p, h2 { font-size: 18px; font-weight: 700; line-height: 1.4; }
+.delta, a.read-more, .audio span.label, div.grid.permalink article footer ol.notes li.more_notes_link_container a, div.grid.permalink article footer ol.notes li.more_notes_link_container span, h4 { font-size: 10px; font-weight: 700; line-height: 1.4; letter-spacing: 1px; color: rgb(68, 68, 68); margin-bottom: 20px; }
+.sub-title, section.authors ul li, div#main > footer nav ul li a, div#main > footer nav ul li span, div#main > footer nav#infinite p a, h5 { font-size: 10px; font-weight: 700; line-height: 1.4; letter-spacing: 1px; color: rgb(68, 68, 68); text-transform: uppercase; }
+.ultra-sub, a.text-button, section.primary .site-links ul li a, section.instagram .meta li a, section.liked-posts ul#likes .post_info_bottom, section.liked-posts .meta li a, div.grid article ul.credit, div.grid article footer ul li a, .ask header p.asker, .chat strong, div.grid.permalink article footer ul.tags h5, h6 { font-size: 10px; font-weight: 700; line-height: 1.4; letter-spacing: 1px; color: rgb(177, 177, 177); text-transform: uppercase; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+div.grid article { position: relative; width: 250px; margin-bottom: 20px; padding-bottom: 1px; background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); }
+div.grid article:before, div.grid article:after { content: " "; display: table; }
+div.grid article:after { clear: both; }
+div.grid article:after { background: url('shadow-left.png') no-repeat scroll left bottom transparent; content: ""; display: block; width: 100px; height: 15px; position: absolute; bottom: -11px; left: -3px; }
+div.grid article:before { background: url('shadow-right.png') no-repeat scroll center bottom transparent; content: ""; display: block; width: 100px; height: 15px; position: absolute; bottom: -9px; right: -6px; }
+div.grid article header, div.grid article section, div.grid article footer { padding: 0px 20px; }
+#main { padding: 128px 20px 0px 64px; }
+.top-bar { background: none repeat scroll 0% 0% rgb(20, 22, 31); margin-bottom: 64px; position: fixed; width: 100%; z-index: 2000; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+.top-bar nav { padding: 0px 0px 0px 64px; height: 64px; overflow: hidden; position: relative; }
+.top-bar nav .profile-icon { display: block; height: 64px; width: 64px; left: 0px; position: absolute; }
+.top-bar nav .profile-icon img { width: 64px; height: 64px; }
+header.site-info { width: 250px; display: block; }
+header.site-info section { position: relative; -moz-box-sizing: border-box; width: 250px; padding: 10px 20px; margin-bottom: 20px; background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); }
+header.site-info section:after { background: url('shadow-left.png') no-repeat scroll left bottom transparent; content: ""; display: block; width: 100px; height: 15px; position: absolute; bottom: -11px; left: -3px; }
+header.site-info section:before { background: url('shadow-right.png') no-repeat scroll center bottom transparent; content: ""; display: block; width: 100px; height: 15px; position: absolute; bottom: -9px; right: -6px; }
+section.primary header { margin: -10px -20px 0px; }
+section.primary header a.logo { display: block; }
+section.primary header h1 { font-size: 18px; margin-bottom: 0px; }
+section.primary header h1 a { padding: 12px 20px; display: block; background: none repeat scroll 0% 0% rgb(0, 142, 201); color: white; }
+section.primary header h1 a:hover { background: none repeat scroll 0% 0% rgb(0, 124, 176); }
+section.primary .search { margin: 20px -20px; padding: 0px 20px 20px; border-bottom: 1px dotted rgb(227, 227, 227); }
+section.primary .search input { background: none repeat scroll 0% 0% rgb(227, 227, 227); color: rgb(68, 68, 68); border: medium none; outline: medium none; width: 100%; padding: 5px 0px; border-radius: 3px 3px 3px 3px; }
+section.primary .description { margin: 20px -20px; padding: 0px 20px 8px; border-bottom: 1px dotted rgb(227, 227, 227); }
+section.primary .description p { margin-bottom: 12px; }
+section.primary .social-links { margin: 20px -20px; padding: 0px 20px 20px; border-bottom: 1px dotted rgb(227, 227, 227); }
+section.primary .social-links ul { margin: 0.5em 0px 0px; }
+section.primary .social-links ul:before, section.primary .social-links ul:after { content: " "; display: table; }
+section.primary .social-links ul:after { clear: both; }
+section.primary .site-links { margin: 20px -20px 0px; padding: 0px 20px 6px; }
+section.primary .site-links ul { margin: 0px; }
+section.primary .site-links ul:before, section.primary .site-links ul:after { content: " "; display: table; }
+section.primary .site-links ul:after { clear: both; }
+section.primary .site-links ul.community { margin-bottom: 4px; }
+section.primary .site-links ul li { float: left; margin-right: 8px; }
+section.primary .site-links ul li.rss a:before { content: ""; }
+section.primary .site-links ul li.archive a:before { content: ""; }
+section.primary .site-links ul li.random a:before { content: ""; }
+section.primary .site-links ul li a:hover { color: rgb(68, 68, 68); text-decoration: none; }
+section.liked-posts { position: relative; }
+section.liked-posts h4 { margin: 6px 0px 12px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+section.liked-posts h4 a { display: block; position: relative; color: rgb(68, 68, 68); }
+section.liked-posts h4 a:hover { color: rgb(0, 142, 201); }
+section.liked-posts h4 a:after { position: absolute; right: 0px; top: 0px; content: ""; }
+section.liked-posts ul#likes { margin: 0px -20px; }
+section.liked-posts ul#likes .like_caption { margin: 14px 20px 0px; }
+section.liked-posts ul#likes .post_info_bottom { display: block ! important; margin: 0px 20px 6px; padding-right: 100px; }
+section.liked-posts .meta { margin: 0px; position: absolute; bottom: 13px; right: 20px; }
+section.liked-posts .meta:before, section.liked-posts .meta:after { content: " "; display: table; }
+section.liked-posts .meta:after { clear: both; }
+section.liked-posts .meta li { float: left; margin-right: 8px; }
+section.liked-posts .meta li:last-child { float: right; margin-right: 0px; }
+section.liked-posts .meta li a:hover { color: rgb(68, 68, 68); text-decoration: none; }
+div.grid { -moz-box-sizing: border-box; }
+div.grid article {  }
+div.grid article header { position: relative; padding-top: 20px; margin-bottom: 20px; }
+div.grid article header:before, div.grid article header:after { content: " "; display: table; }
+div.grid article header:after { clear: both; }
+div.grid article.photo header, div.grid article.video header, div.grid article.photoset header, div.grid article.audio header { padding: 0px; }
+div.grid article ul.credit { line-height: 1.4; }
+div.grid article ul.credit a { color: rgb(0, 142, 201); }
+div.grid article footer ul { display: inline-block; margin-bottom: 10px; }
+div.grid article footer ul.meta { float: left; }
+div.grid article footer ul.tumblr-action { float: right; margin-top: 10px; }
+div.grid article footer ul.tumblr-action li { margin-right: 0px; display: inline-block; }
+div.grid article footer ul.tumblr-action strong { display: none; }
+div.grid article footer ul.tumblr-action span { font-size: 19px; }
+div.grid article footer ul.tumblr-action li.like { position: relative; height: 20px; width: 20px; border-radius: 10px 10px 10px 10px; background: none repeat scroll 0% 0% rgb(186, 218, 85); top: -4px; margin-right: 3px; }
+div.grid article footer ul.tumblr-action li.like .like_button { position: relative; top: 3px; left: 3px; }
+div.grid article footer ul li { display: inline; margin-right: 12px; line-height: 1; }
+div.grid article footer ul li.time { display: block; }
+div.grid article footer ul li.notes a:before { content: ""; }
+div.grid article footer ul li a:hover { color: rgb(68, 68, 68); text-decoration: none; }
+body.index-page div.grid article ul.credit { display: none; }
+div.grid article.quote header { background: none repeat scroll 0% 0% rgb(0, 142, 201); padding-bottom: 1.5em; }
+div.grid article.quote header p { color: white; font-style: italic; display: inline; }
+div.grid article.quote header p:first-of-type:before { content: "“"; }
+div.grid article.quote header p:last-of-type:after { content: "”"; }
+div.grid article.link header { padding: 0px; }
+div.grid article.link header h2 { margin-bottom: 0px; margin-top: 0px; }
+div.grid article.link header h2 a { display: block; padding: 20px; background: none repeat scroll 0% 0% rgb(0, 142, 201); color: white; }
+div.grid article.link header h2 a:hover { background: none repeat scroll 0% 0% rgb(0, 124, 176); }
+div.grid article.link header h2 a span { border-bottom: 1px dotted rgb(209, 233, 244); }
+div.grid article.link header h2 a:before { font-family: 'Batch-Custom'; content: ""; color: rgb(209, 233, 244); float: right; padding: 3px 0px 3px 10px; font-weight: normal; line-height: 1; }
+.photo header { text-align: center; }
+.photo header a.highres { position: absolute; top: 12px; right: 18px; height: 18px; width: 18px; text-align: center; color: white; text-shadow: 1px 1px 1px rgb(51, 51, 51); padding: 5px; border-radius: 18px 18px 18px 18px; background-image: radial-gradient(ellipse farthest-corner at 50% 50% , transparent, rgba(0, 0, 0, 0.4)); display: none; }
+.photo header a.highres:hover { background: none repeat scroll 0% 0% black; text-decoration: none; }
+.photo header a.highres strong { display: none; }
+.photo header a.highres span { line-height: 1.3; font-size: 16px; }
+div#main > footer { width: 100%; padding: 64px 0px; text-align: center; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+div#main > footer nav { display: inline-block; width: auto; height: 60px; margin: auto auto 20px; background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px; }
+div#main > footer nav:before, div#main > footer nav:after { content: " "; display: table; }
+div#main > footer nav:after { clear: both; }
+div#main > footer nav#infinite { display: inline-block ! important; }
+div#main > footer nav#infinite p { text-align: center; }
+div#main > footer nav#infinite p a { font-size: 13px; display: block; width: 250px; padding: 21px 0px; }
+div#main > footer nav#infinite p a:before, div#main > footer nav#infinite p a:after { content: " "; display: table; }
+div#main > footer nav#infinite p a:after { clear: both; }
+div#main > footer nav#infinite p a:hover { color: black; border-bottom: 3px solid rgb(0, 142, 201); border-radius: 5px 5px 5px 5px; text-decoration: none; }
+div#main > footer nav#infinite div.loading-spinner { display: none; margin: 7px auto; }
+div#main > footer nav#infinite div.loading-spinner .ui-spinner { width: 46px; height: 46px; background: none repeat scroll 0% 0% rgb(177, 177, 177); }
+div#main > footer nav#infinite div.loading-spinner .ui-spinner .side .fill { background: none repeat scroll 0% 0% rgb(0, 142, 201); animation-duration: 2.5s; opacity: 1; }
+div#main > footer nav#infinite div.loading-spinner .ui-spinner:after { content: ""; background: none repeat scroll 0% 0% white; position: absolute; width: 28px; height: 28px; border-radius: 50% 50% 50% 50%; top: 9px; left: 9px; display: block; }
+div#main > footer nav#infinite div.loading-spinner .ui-spinner { margin: auto; }
+@media only screen and (max-width: 660px) {
+}
+#main { transition-duration: 0.6s; }
+#main { transition-property: padding; }
+div.grid article, div.grid article.t_xl, header.site-info, header.site-info section { transition-duration: 0.6s; }
+div.grid article, div.grid article.t_xl, header.site-info, header.site-info section { transition-property: width; }
+html body iframe#tumblr_controls, html body iframe#tumblr_controls.tumblr_sticky_iframe[src*="tumblr"] { top: 68px ! important; right: 4px ! important; position: fixed ! important; }
+@media screen and (max-width: 875px) {
+}
+@media screen and (max-width: 832px) {
+}
+@media screen and (max-width: 660px) {
+	#main { padding: 100px 20px 0px; }
+	header.site-info, header.site-info section { width: 100%; }
+	section.primary .search { display: none; }
+	header.site-info section.authors, header.site-info section.instagram, header.site-info section.liked-posts { display: none; }
+	div.grid article, div.grid article.t_xl, body.index-page div.grid article.t_xl { width: 100%; }
+	div.grid article.photo header img { width: 100%; }
+	div.grid article footer {  }
+	div.grid article footer:before, div.grid article footer:after { content: " "; display: table; }
+	div.grid article footer:after { clear: both; }
+	div#main > footer { padding: 20px 0px; }
+	div#main > footer nav, div#main > footer nav#infinite p a { width: 100%; }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	section.primary .search input { padding: 5px; }
+}
+@media only screen and (min-width: 320.001px) and (max-width: 320px) {
+	.top-bar { position: absolute; }
+	#tumblr_controls { top: 68px ! important; right: 4px ! important; position: absolute ! important; }
+}
+@media only screen and (min-width: 320.001px) and (max-width: 1024px) {
+	section.primary .search input { padding: 5px; }
+}
+body, .delta, a.read-more, h4, .sub-title, section.authors ul li, div#main > footer nav ul li a, div#main > footer nav ul li span, div#main > footer nav p a, div#main > footer nav#infinite p a, h5, a.text-button:hover, section.primary .search input, section.primary .site-links ul li a:hover, section.primary .social-links ul li a:hover, section.instagram h4 a, section.instagram .meta li a:hover, section.liked-posts h4 a, section.liked-posts .meta li a:hover, div.grid.permalink article footer ol.notes li.more_notes_link_container a, div.grid.permalink article footer ol.notes li.more_notes_link_container span { color: rgb(68, 68, 68); }
+@media screen and (max-width: 660px) {
+}
+h1, h2, h3, h4, h5, h6, .text h2 a, div#main > footer nav ul li a:hover, div#main > footer nav p a:hover { color: rgb(0, 0, 0); }
+div.grid article, header.site-info section, div#main > footer nav, div#main > footer nav div.loading-spinner .ui-spinner:after, div#main > footer nav#infinite div.loading-spinner .ui-spinner:after { background-color: rgb(255, 255, 255); }
+@media screen and (max-width: 832px) {
+}
+@media screen and (max-width: 660px) {
+}
+*::-moz-selection { color: rgb(255, 255, 255); }
+.ultra-sub, a.text-button, section.primary .site-links ul li a, section.instagram .meta li a, section.liked-posts ul#likes .post_info_bottom, section.liked-posts .meta li a, div.grid article ul.credit, div.grid article footer ul li a, .ask header p.asker, .chat strong, h6, .audio h3.artist, .chat header h2:before, section.primary .social-links ul li a { color: rgb(177, 177, 177); }
+section.instagram .shot-holder, div#main > footer nav#infinite div.loading-spinner .ui-spinner, div.grid article footer ul.tumblr-action li.like { background-color: rgb(177, 177, 177); }
+@media screen and (max-width: 660px) {
+}
+blockquote, section.primary .search, section.primary .description, section.primary .social-links, div.grid article.text header, div.grid article.chat header, div.grid article.audio header, .ask header, hr, .chat .odd, .chat .even, div#main > footer nav ul li, div.grid.permalink article footer, div.grid.permalink article footer div.post-data, div.grid.permalink article footer ol.notes li { border-color: rgba(177, 177, 177, 0.3); }
+a.read-more, article.photo header, article.audio .album-case, section.primary .search input, .audio .play-bar, div#main > footer nav div.loading-spinner .ui-spinner, div.grid.permalink article footer ol.notes li.more_notes_link_container a, div.grid.permalink article footer ol.notes li.more_notes_link_container span { background-color: rgba(177, 177, 177, 0.3); }
+@media screen and (max-width: 832px) {
+}
+@media screen and (max-width: 660px) {
+}
+a, section.instagram h4 a:hover, section.liked-posts h4 a:hover, div.grid article ul.credit a, .audio .play-button a.icon-play, div.grid article footer ul li a.tliked, div.grid article footer ul li a.tliked:hover { color: rgb(110, 180, 89); }
+section.primary header h1 a, div.grid article.quote header, div.grid article.link header h2 a, div#main > footer nav ul li.current-page, div#main > footer nav div.loading-spinner .ui-spinner .side .fill, div#main > footer nav#infinite div.loading-spinner .ui-spinner .side .fill { background-color: rgb(110, 180, 89); }
+div#main > footer nav ul li a:hover, div#main > footer nav p a:hover, div#main > footer nav#infinite p a:hover { border-color: rgb(110, 180, 89); }
+*::-moz-selection { background: none repeat scroll 0% 0% rgb(110, 180, 89); }
+a:hover, .audio .play-button a.icon-play:hover { color: rgb(127, 130, 131); }
+a.read-more:hover, .top-bar nav ul li a:hover, .top-bar nav.minimal a.view-nav:hover, section.primary header h1 a:hover, div.grid article.link header h2 a:hover, div.grid.permalink article footer ol.notes li.more_notes_link_container a:hover, div.grid.permalink article footer ol.notes li.more_notes_link_container span:hover { background-color: rgb(127, 130, 131); }
+a.read-more:hover, section.primary header h1 a, .quote header p, div.grid article.link header h2 a, div#main > footer nav ul li.current-page span, div.grid.permalink article footer ol.notes li.more_notes_link_container a:hover, div.grid.permalink article footer ol.notes li.more_notes_link_container span:hover { color: rgb(255, 255, 255); }
+div.grid article.link header h2 a:before { color: rgba(255, 255, 255, 0.5); }
+div.grid article.link header h2 a span { border-color: rgba(255, 255, 255, 0.5); }
+.top-bar, .top-bar nav.minimal ul { background-color: rgb(51, 51, 51); }
+body { background: none repeat scroll 0% 0% rgb(227, 227, 227); }
+div.grid article { visibility: hidden; }
+div.grid article iframe { opacity: 0; }
+article.photo header img { width: 100%; height: auto; }
+body { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+.ultra-sub, a.text-button, section.primary .site-links ul li a, section.instagram .meta li a, section.liked-posts ul#likes .post_info_bottom, section.liked-posts .meta li a, div.grid article ul.credit, div.grid article footer ul li a, .ask header p.asker, .chat strong, div.grid.permalink article footer ul.tags h5, h6, a.read-more, .top-bar, section.authors h4, section.instagram h4, section.liked-posts h4, div#main > footer { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+div.grid article { width: 310px; }
+header.site-info section { width: 310px; }
+header.site-info { width: 310px; }
+section.primary header h1 a { display: none; }
+.top-bar nav {  }
+#main { padding: 128px 20px 0px 64px; }
+section.liked-posts { display: none; }

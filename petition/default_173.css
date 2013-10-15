@@ -1,0 +1,139 @@
+/* ::::: http://about.pinterest.com/assets/css/presentation.css ::::: */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, b, address, cite, code, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, footer, header, nav, section, summary { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none outside none; }
+* { -moz-box-sizing: border-box; }
+a { text-decoration: none; color: rgb(7, 157, 219); }
+a:hover, a:active { color: rgb(5, 173, 243); }
+a.hazOffsite { display: inline-block; padding-right: 12px ! important; background: url('@22@22_002.dat') no-repeat scroll 100% 50% transparent; }
+p { font-size: 16px; line-height: 1.2em; }
+h2, h3 { font-family: "Abril Text Regular",serif; font-weight: normal; font-size: 38px; line-height: 48px; color: rgb(0, 0, 0); }
+h3 { font-size: 24px; }
+body { padding-top: 50px; }
+header#hd { position: fixed; z-index: 10; top: 0px; left: 0px; width: 100%; right: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.4); }
+header#hd nav { line-height: 50px; height: 50px; margin: 0px auto; position: relative; }
+header#hd nav a.navLogo { display: inline-block; height: 50px; width: 100px; }
+header#hd nav span#selectedNav { display: none; }
+header#hd nav ul { position: absolute; top: 0px; right: 0px; text-align: right; }
+header#hd nav ul li { display: inline-block; font-family: "Adelle Sans Semibold",sans-serif; font-size: 12px; height: 50px; line-height: 50px; }
+header#hd nav ul li a { color: rgb(84, 55, 57); vertical-align: middle; display: inline-block; padding: 0px 0px 0px 25px; text-decoration: none; cursor: pointer; }
+header#hd nav ul li a.selected, header#hd nav ul li a:hover { color: rgb(203, 32, 39); font-family: "Adelle Sans Semibold",sans-serif; }
+header#hd div.subhd { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px; height: 40px; line-height: 40px; border-top: 1px solid rgb(221, 221, 221); }
+header#hd div.subhd nav { padding: 0px; line-height: 40px; height: 40px; }
+header#hd div.subhd nav ul { margin: 0px; padding: 0px; line-height: 40px; height: 40px; }
+header#hd div.subhd nav ul li { height: 40px; line-height: 40px; }
+header#hd div.subhd nav ul li a { display: inline-block; height: 26px; line-height: 26px; padding: 0px 10px; margin: 0px 0px 0px 10px; text-align: center; }
+header#hd div.subhd nav ul li a.selected { background: none repeat scroll 0% 0% rgb(201, 35, 45); border-radius: 3px 3px 3px 3px; color: rgb(255, 255, 255); }
+section { margin-bottom: 80px; }
+section h2 { text-align: center; padding-top: 80px; }
+html, body { height: 100%; }
+#main { min-height: 100%; height: auto ! important; margin: 0px auto -300px; }
+footer#ft, div#push { height: 300px; }
+footer#ft { background: none repeat scroll 0% 0% rgb(241, 241, 241); font-family: "Adelle Sans Regular",sans-serif; color: rgb(119, 119, 119); z-index: 10; position: relative; }
+footer#ft span.border { display: block; width: 100%; position: absolute; top: 0px; left: 0px; margin: 0px; padding: 0px; height: 2px; background: none repeat scroll 0% 0% rgb(217, 217, 217); }
+footer#ft div.gr { padding-top: 50px; }
+footer#ft div.gr div.gu p { font-size: 16px; line-height: 24px; color: rgb(102, 102, 102); }
+footer#ft div.gr div.gu p a.navLogo { display: block; height: 50px; width: 100px; }
+footer#ft div.gr div.gu p.copy { font-size: 14px; color: rgb(153, 153, 153); padding-top: 20px; }
+footer#ft div.gr div.gu h4 { font-size: 14px; color: rgb(102, 102, 102); line-height: 20px; padding-bottom: 10px; font-family: "Adelle Sans Semibold",sans-serif; }
+footer#ft div.gr div.gu ul { padding-bottom: 10px; }
+footer#ft div.gr div.gu ul li { font-size: 14px; line-height: 20px; }
+footer#ft div.gr div.gu ul li a { color: rgb(7, 157, 219); }
+footer#ft div.gr div.gu ul li a:hover { color: rgb(5, 173, 243); }
+footer#ft div.gr div.gu.hazSeparator { height: 200px; padding-left: 20px; border-left: 1px solid rgb(221, 221, 221); }
+.gr { width: 968px; margin: 0px auto; text-align: left; font-size: 0px; line-height: 0; }
+.gr .gu { font-size: 0px; line-height: 0; display: inline-block; vertical-align: top; margin-right: 16px; }
+.gr .g1 { width: 107px; }
+.gr .g2 { width: 230px; }
+.gr .g3 { width: 353px; }
+.gr .g6 { width: 722px; }
+.gr .gu:last-child { margin-right: 0px; }
+/* ::::: http://about.pinterest.com/assets/css/data.css ::::: */
+
+a.navLogo { background: url('undefined') no-repeat scroll 50% 50% transparent; }
+a.hazOffsite { background-image: url('undefined'); }
+.paper { background: none repeat scroll 0% 0% rgb(227, 227, 227); border-bottom: 2px solid rgb(221, 221, 221); }
+@font-face {
+	font-family: "Adelle Sans Semibold";
+	font-style: normal;
+	font-weight: 600;
+	src: url('undefined');
+}
+@font-face {
+	font-family: "Adelle Sans Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url('undefined');
+}
+@font-face {
+	font-family: "Inconsolata";
+	font-style: normal;
+	font-weight: 500;
+	src: url('undefined');
+}
+@font-face {
+	font-family: "Abril Text Regular";
+	font-weight: 400;
+	src: url('undefined');
+}
+@font-face {
+	font-family: "Abril Text Italic";
+	font-weight: 400;
+	src: url('undefined');
+}
+@font-face {
+	font-family: "Abril Text Bold";
+	font-weight: 700;
+	src: url('undefined');
+}
+/* ::::: http://about.pinterest.com/assets/css/legal.css ::::: */
+
+body.legal header#hd div.subhd { background: none repeat scroll 0% 0% rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); height: 42px; }
+body.legal header#hd div.subhd a { display: inline-block; height: 30px; padding: 0px 10px; margin-left: 10px; line-height: 30px; text-align: center; }
+body.legal header#hd div.subhd a.selected { background: none repeat scroll 0% 0% rgb(201, 35, 45); border-radius: 3px 3px 3px 3px; color: rgb(255, 255, 255); }
+body.legal section#top { padding-top: 50px; padding-bottom: 90px; margin-bottom: 40px; text-align: center; }
+body.legal section {  }
+body.legal section div.gu { font-family: "Adelle Sans Regular",sans-serif; font-size: 16px; color: rgb(45, 40, 40); }
+body.legal section div.gu li { font-size: 16px; line-height: 1.2em; padding-left: 30px; }
+body.legal section div.gu p, body.legal section div.gu li { margin: 20px 0px; line-height: 20px; }
+body.legal section div.gu h3 { font-family: "Abril Text Regular",serif; font-size: 24px; font-weight: normal; margin: 40px 0px 30px; }
+body.legal section div.gu h4 { font-family: "Abril Text Bold",serif; font-size: 16px; line-height: 24px; color: rgb(45, 40, 40); margin: 0px 0px 10px; }
+body.legal section ul.hazBullet li { position: relative; }
+body.legal section ul.hazBullet li:before { color: rgb(170, 170, 170); content: "· "; position: absolute; top: 0px; left: 15px; }
+/* ::::: http://about.pinterest.com/assets/css/mobile.css ::::: */
+
+.gr, .gu { width: 100% ! important; margin: 10px 0px; display: block ! important; box-shadow: none; border-radius: 0px 0px 0px 0px; border: medium none; }
+.gu { padding: 0px 10px ! important; }
+html { background: none repeat scroll 0% 0% rgb(51, 51, 51); text-align: center; }
+html body { padding: 0px; width: 100% ! important; margin: 0px auto; color: rgb(45, 40, 40); }
+html body div#main { width: 100%; background: none repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; margin: 0px; }
+html body div#main section.paper { min-width: 100%; }
+html body div#main section { width: 100% ! important; }
+html body div#main section h2, html body div#main section h3, html body div#main section h4 { font-family: "Abril Text Regular",serif; font-weight: normal; width: 100%; padding: 10px; font-size: 22px; line-height: 28px; }
+html body div#main section h2 { padding: 20px 10px 0px; }
+html body div#main section h4 { font-family: "Abril Text Bold",serif; font-weight: normal; font-size: 18px; padding: 0px ! important; }
+html body div#main section .gr .gu { margin: 0px; line-height: 0; font-size: 0px; }
+html body div#main section .gr .gu h3 { font-size: 22px; line-height: 26px; padding: 10px 0px 0px; }
+html body div#main section .gr .gu p { font-family: "Adelle Sans Regular",sans-serif; font-size: 14px; line-height: 16px; margin: 0px; }
+html body section#top { padding-bottom: 0px; }
+@media not all {
+}
+html body.legal section#top { padding-top: 20px; padding-bottom: 40px; }
+html body.legal section div.gr { text-align: center ! important; }
+html body.legal section div.gr div.gu { text-align: left ! important; width: 90% ! important; margin: 10px auto ! important; }
+html body.legal section div.gr div.gu p { margin: 30px 0px ! important; }
+html body.legal section div.gr div.gu h4 { margin-top: 10px; font-size: 16px ! important; line-height: 24px ! important; }
+html body.legal section div.gr div.gu ul.hazBullet li { padding: 0px 0px 0px 20px; font-size: 14px; line-height: 16px; }
+html body.legal section div.gr div.gu ul.hazBullet li:before { color: rgb(170, 170, 170); content: "· "; position: absolute; top: 0px; left: 10px; }
+div#push { display: none; }
+header#hd { position: static; width: 100%; background: none repeat scroll 0% 0% rgb(255, 255, 255); height: auto; border-bottom: 1px solid rgb(221, 221, 221); }
+header#hd nav { line-height: 50px; height: auto; margin: 0px auto; }
+header#hd nav span#selectedNav { display: block; height: 50px; width: 100%; text-align: center; font-family: "Adelle Sans Semibold",sans-serif; }
+header#hd nav ul { position: static; display: none; text-align: center; height: auto; background: none repeat scroll 0% 0% rgb(102, 102, 102); }
+header#hd nav ul li { font-family: "Adelle Sans Semibold",sans-serif; font-size: 16px; height: 50px; line-height: 50px; display: block; border-bottom: 1px solid rgb(51, 51, 51); }
+header#hd nav ul li a { display: block; color: rgb(255, 255, 255) ! important; text-decoration: none; padding-right: 20px; }
+header#hd nav ul li#navGoodies { display: none ! important; }
+header#hd div.subhd { display: none ! important; }
+footer#ft { font-family: "Adelle Sans Regular",sans-serif; color: rgb(119, 119, 119); }

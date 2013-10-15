@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Greenpeace</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="title" content="Sorry, we can't find that page!" />
+    
+    <link rel="shortcut icon" type="image/ico" href="/international/favicon.ico" />
+    <style type="text/css">
+    body {
+        background:url("/international/Templates/Planet3/Styles/images/bg-body.gif") repeat-x scroll 0 0 #FFFFFF;
+        font:12px Verdana,Geneva,Arial,Helvetica,sans-serif;
+        margin:0;
+        min-width:960px;
+    }
+    .page {
+        margin:0 auto;
+        position:relative;
+        width:960px;
+    }
+    #wrapper {
+        width:960px;
+    }
+    h1.logo, span.logo {
+        height:25px;
+        left:8px;
+        margin:0;
+        overflow:hidden;
+        position:absolute;
+        text-indent:-9999px;
+        top:18px;
+        width:153px;
+        z-index:11;
+    }
+    h1.logo a, span.logo a {
+        background:url("/international/Templates/Planet3/Styles/images/logo.gif") no-repeat scroll 0 0 transparent;
+        display:block;
+        height:25px;
+        width:153px;
+    }
+    a {
+        color:#000;
+        text-decoration:none;
+    }
+    #main .separate-container .error-image {
+        float:left;
+        margin:10px 20px 10px 12px;
+    }
+    img {
+        border:medium none;
+    }
+    #main {
+        padding:100px 4px 0 10px;
+        width:946px;
+    }
+    #main .separate-container {
+        border-top:5px solid #EBEDF0;
+        margin:13px 0 0 6px;
+        padding:6px 0 0;
+        width:940px;
+        clear:both;
+    }
+    #main .separate-container h2 {
+        color:#66CC00;
+        font-size:28px;
+        font-weight:400;
+        margin:19px 0 0;
+    }
+    #main .separate-container h3 {
+        color:#030303;
+        font-size:18px;
+        font-weight:400;
+        line-height:24px;
+        margin:2px 0 0;
+    }
+    #main .separate-container .flexible-box {
+        height:1%;
+        overflow:hidden;
+        padding:0 0 0 17px;
+    }
+    #main .separate-container .flexible-box h4 {
+        padding-bottom:10px;
+    }
+    #main .separate-container h4 {
+        background:url("/international/Templates/Planet3/Styles/images/bg-border2.png") repeat-x scroll 0 100% transparent;
+        color:#003300;
+        font-size:16px;
+        margin:4px 0 0;
+        padding:0 0 7px;
+    }
+    #main .separate-container .flexible-box .links-list {
+        background:url("/international/Templates/Planet3/Styles/images/bg-border2.png") repeat-x scroll 0 100% transparent;
+        list-style:none outside none;
+        margin:12px 0 0 -17px;
+        padding:0 0 19px 16px;
+    }
+    #main .separate-container .flexible-box .links-list li {
+        list-style:none outside none;
+        padding:0 0 8px;
+        vertical-align:top;
+    }
+    #main .separate-container .flexible-box .links-list li a {
+        background:url("/international/Templates/Planet3/Styles/images/bg-more.gif") no-repeat scroll 0 2px transparent;
+        color:#333333;
+        font:11px Verdana,Arial,Helvetica,sans-serif;
+        padding:2px 0 2px 20px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Page start -->
+	<div class="page">
+		<!-- Wrapper start -->
+		<div id="wrapper">
+			<!-- logo -->
+			<h1 class="logo"><a href="/">GREENPEACE</a></h1>
+			<!-- main start -->
+			<div id="main">
+				<!-- contents -->	
+                <div class="separate-container">
+                    <img src="/international/Templates/Planet3/Styles/images/error-image-404.png" alt="error" class="error-image" />
+                    <h2>Sorry, we can't find that page!</h2>
+                    <h3>The page might be extinct...</h3>
+                </div>
+                <div class="separate-container">
+                    <div class="flexible-box">
+                        <h4>Suggested links:</h4>
+                        <ul class="links-list">	                        <li><a href="http://www.facebook.com/greenpeace.international">facebook</a></li>	                        <li><a href="http://twitter.com/greenpeace">twitter</a></li>	                        <li><a href="http://www.youtube.com/greenpeace">youtube</a></li>	                        <li><a href="http://www.greenpeace.org.uk/">www.greenpeace.org.uk</a></li>                        </ul>
+                    </div>
+                </div>
+		    </div>
+		</div>
+		<!-- Wrapper end -->
+	</div>
+	<!-- Page end -->
+</body>
+</html>
