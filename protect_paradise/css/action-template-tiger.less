@@ -1,0 +1,289 @@
+body {
+	background:#000;
+}
+
+/* ==========================================================================
+	 Mobile First!
+	 ========================================================================== */
+.section {
+	margin:auto;
+	padding:0 5px;
+	width:310px;
+}
+
+/* header */
+h1 span {
+	overflow:hidden;
+	display:block;
+}
+h2 {
+	width:320px;
+	clear:both;
+	margin-bottom:1em;
+}
+
+#header-container1 {
+	width:100%;
+	background:#000;
+	height:3em;
+}
+#header-container1 .logo {
+	margin-top:1em;
+	width:131px;
+	height:21px;
+	background:transparent url(../img/GP_logo_header.png) 0 0 no-repeat;
+	display:block;
+	float:left;
+}
+#header-container2 {
+	background:#66CC00;
+}
+#header-container2 i.paw {
+	background:transparent url(../img/TSW_logo_2.png) 45% 3px no-repeat;
+	width:310px;
+	height:200px;
+	display:block;
+	float:left;
+}
+
+/* body */
+.submit, .submit-full{
+	margin-top:.5em;
+}
+#action-smallprints {
+	font-size:.75em;
+	margin:1em 0;
+}
+#action-smallprints input {
+	display:none;
+}
+#action-counter iframe {
+	display:inline-block;
+	height:2em;
+	float:left;
+	margin-top:.25em;
+}
+#action-counter div {
+	display:inline-block;
+	height:2em;
+	float:left;
+}
+
+/* celebrities */
+#section2 h2 {
+}
+.celebrities,
+.celebrities li,
+blockquote {
+	margin:0;
+	padding:0;
+}
+.celebrities li {
+	list-style-type:none;
+	margin-bottom:1em;
+}
+.celebrities blockquote p {
+  font-style: italic;
+}
+.celebrities blockquote p:before,
+.celebrities blockquote p:after {
+	content:'"';
+}
+
+/* manifesto */
+.manifesto {
+	padding-left:1.25em;
+}
+
+/* footer */
+.footer {
+	border-top:.5em solid #ff6b08;
+	margin-top:3em;
+}
+.footer ul {
+	margin:1em 0;
+	padding:0;
+}
+.footer li {
+	list-style-type:none;
+	display:inline;
+	margin-right:1em;
+}
+.footer a, .footer a:visited {
+	text-decoration:none;
+}
+.footer .logo {
+	width:107px;
+	height:18px;
+	background:transparent url(../img/GP_logo_footer.png) 0 0 no-repeat;
+	display:block;
+	float:left;
+}
+.footer .copy {
+	padding-left:.25em;
+	display:block;
+	float:left;
+}
+#js-show-more {
+	display:none;
+}
+
+/* ==========================================================================
+	 Desktop
+	 ========================================================================== */
+
+@media only screen and (min-width : 1024px) {
+
+	/* header */
+	h1 {
+		font-size: 2em; /* 32px/16 */
+	}
+	#header-container1 {
+		position:fixed;
+		top:0;
+		z-index:1;
+		border-bottom:2px solid #66CC00;
+	}
+	#header-container2 {
+		margin-top:3em;
+		z-index:999;
+	}
+	#header-container2 h1 span{
+		margin-left:230px;
+	}
+	#header-container2 i.paw {
+		position:absolute;
+		margin-top:-80px;
+		z-index:999;
+		width:220px;
+	}
+	#header-container1 .logo {
+		float:right;
+	}
+
+	/* background and block layout */
+	.section {
+		width:960px;
+	}
+	.section-container {
+		overflow:hidden;
+	}
+	.section-raster-container {
+		background:transparent url(../img/raster.png) 0 0 repeat;
+		height:900px;
+	}
+	#section-container1 .section-raster-container {
+		height:765px;
+	}
+	#section-container1 {
+		background:transparent url(../img/bg_section_1.jpg) center 50px no-repeat fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:730px;
+	}
+	#section-holder1 {
+		float:right;
+		width:360px;
+	}
+
+	#section-container2 {
+		background:transparent url(../img/bg_section_2.jpg) center 50px no-repeat fixed; -webkit-background-size: cover; /* pour Chrome et Safari */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:820px;
+	}
+  	#section2 {
+		padding-top:3em;
+	}
+
+	#section-container3 {
+		background:transparent url(../img/bg_section_3.jpg) center 50px no-repeat fixed; -webkit-background-size: cover; /* pour Chrome et Safari */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:900px;
+	}
+	#section3 .block {
+		width:460px;
+		float:left;
+		padding:20px;
+		margin-top:6em;
+		background:#000;
+    background: rgba(0, 0, 0, .6);
+	}
+
+  /* form */
+	#action-form {
+		background:#000;
+		width:330px;
+		padding:1em;
+		background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .6);
+		position:fixed;
+		margin:.5em 0 0 0;
+	}
+	input[type=text],
+	input[type=email],
+	input[type=tel] {
+		width:19.5em;
+	}
+	select,
+	select:hover,
+	input[type=submit] {
+		width:20.6em;
+	}
+
+  /* celebrities /
+	.celebrities {
+		width:520px;
+		max-height:480px;
+		border:1px solid blue;
+		overflow-y:scroll;
+	}*/
+	.celebrities li {
+		width:480px;
+		padding:10px;
+		background:#000;
+    background: rgba(0, 0, 0, .6);
+		min-height:115px;
+	}
+	.celebrities img {
+		float:left;
+	}
+	.celebrities p {
+		margin:0;
+	}
+	.celebrities blockquote {
+		margin-left:125px;
+	}
+	.celebrities blockquote .name {
+		text-align:right;
+	}
+	.celebrities li:nth-child(n+4) {
+		display:none;
+	}
+	.js #js-show-more {
+		display:block;
+		cursor:pointer;
+		cursor:hand;
+	}
+
+  /* footer */
+	.footer {
+		margin-top:0;
+		height:4em;
+	}
+	.footer .logo-box {
+		float:left;
+		margin-top:1em;
+	}
+	.footer ul {
+		float:right;
+	}
+}
+
