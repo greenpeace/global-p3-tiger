@@ -17,4 +17,11 @@ $(document).ready(function(){
 
 	});
 	
+// IE6 PNG fix
+	if ($('html').hasClass('lt-ie9')) {
+DD_belatedPNG.fix('img, i, a, .section-raster-container, .png_bg');
+}
 });
+
+
+
