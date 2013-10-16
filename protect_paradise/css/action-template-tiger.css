@@ -256,6 +256,11 @@ h2 {
     display: block;
     cursor: pointer;
     cursor: hand;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    padding: 0.5em 0em;
+    width: 100px;
+    text-align: center;
+    margin-left: 190px;
   }
   /* footer */
   .footer {
@@ -414,6 +419,11 @@ h2 {
   display: block;
   cursor: pointer;
   cursor: hand;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  padding: 0.5em 0em;
+  width: 100px;
+  text-align: center;
+  margin-left: 190px;
 }
 .desktop .footer {
   margin-top: 0;
