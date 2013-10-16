@@ -217,7 +217,7 @@ blockquote {
     padding: 1em;
     background: #000000;
     background: rgba(0, 0, 0, 0.6);
-    position: fixed;
+    position: relative;
     margin: .5em 0 0 0;
   }
   input[type=text],
@@ -389,7 +389,7 @@ blockquote {
   padding: 1em;
   background: #000000;
   background: rgba(0, 0, 0, 0.6);
-  position: fixed;
+  position: relative;
   margin: .5em 0 0 0;
 }
 .desktop input[type=text],

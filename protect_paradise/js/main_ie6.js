@@ -11,7 +11,10 @@ $(document).ready(function () {
             window.validated = true;
 
             // validate not empty
-
+        $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
+            var text = $(this).text();
+            $(this).text(text + ' *');
+        });
             $('#UserEmail, #UserFirstname, #UserLastname').blur(function () {
                 if ($(this).val() == '') {
                     $(this).parent().find('.error').remove();
@@ -37,7 +40,7 @@ $(document).ready(function () {
 
                     $(this).after('<div class="error">Please enter a valid email address!</div>');
                     $(this).css({
-                        'border': '1px solid red'
+                        'border': '3px solid red'
                     });
 
                 } else   {

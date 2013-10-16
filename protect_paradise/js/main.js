@@ -44,6 +44,17 @@ $(document).ready(function(){
 	if ($('html').hasClass('lt-ie9')) {
         DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
     }
+
+    var formOffset = $('#action-form').offset();
+    var formHeight = $('#action-form').height();
+
+    if (formOffset.top + formHeight < window.height()) {
+        $('#action-form').css({
+            'position':'fixed'
+        });
+    }
+
+
 });
 
 
