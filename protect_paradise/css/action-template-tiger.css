@@ -466,3 +466,6 @@ footer {
 .lt-ie7 .desktop #header-container1 {
   position: absolute;
 }
+.lt-ie8 .desktop .section-raster-container {
+  background-image: none;
+}
