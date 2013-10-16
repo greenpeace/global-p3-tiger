@@ -309,7 +309,7 @@ select, select:hover {
   visibility: visible;
 }
 
-.lt-ie9 div.error {
+div.error {
     color: red;
     padding-left: 20px;
     margin-bottom: 5px;

@@ -1,16 +1,18 @@
 $(document).ready(function () {
-    if ($('html').hasClass('lt-ie10')) {
-        $('.select label, .text label').css({
-            'display': 'block'
-        });
-    }
+
     if ($('html').hasClass('lt-ie8')) {
         $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
             var text = $(this).text();
             $(this).text(text + ' *');
         });
     }
-    if ($('html').hasClass('lt-ie9')) {
+    // Validierung für <IE10
+    if (!( $('html').hasClass('lt-ie9') || $('html').hasClass('lt-ie8') || $('html').hasClass('lt-ie7'))) {
+
+        $('.select label, .text label').css({
+            'display': 'block'
+        });
+
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
 
