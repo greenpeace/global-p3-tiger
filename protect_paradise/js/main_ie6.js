@@ -10,7 +10,7 @@ $(document).ready(function () {
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
     }
-    // Validierung für <IE10
+    // Validierung für >=IE9
     if (!( $('html').hasClass('lt-ie9') || $('html').hasClass('lt-ie8') || $('html').hasClass('lt-ie7'))) {
 
         $('.select label, .text label').css({
