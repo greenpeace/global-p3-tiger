@@ -43,7 +43,8 @@ h2 {
   float: left;
 }
 /* body */
-.submit, .submit-full {
+.submit,
+.submit-full {
   margin-top: .5em;
 }
 #action-smallprints {
@@ -65,7 +66,9 @@ h2 {
   float: left;
 }
 /* celebrities */
-.celebrities, .celebrities li, blockquote {
+.celebrities,
+.celebrities li,
+blockquote {
   margin: 0;
   padding: 0;
 }
@@ -76,7 +79,8 @@ h2 {
 .celebrities blockquote p {
   font-style: italic;
 }
-.celebrities blockquote p:before, .celebrities blockquote p:after {
+.celebrities blockquote p:before,
+.celebrities blockquote p:after {
   content: '"';
 }
 /* manifesto */
@@ -97,7 +101,8 @@ h2 {
   display: inline;
   margin-right: 1em;
 }
-.footer a, .footer a:visited {
+.footer a,
+.footer a:visited {
   text-decoration: none;
 }
 .footer .logo {
@@ -176,7 +181,6 @@ h2 {
   }
   #section-container2 {
     background: transparent url(../img/bg_section_2.jpg) center 50px no-repeat fixed;
-    -webkit-background-size: cover;
     /* pour Chrome et Safari */
   
     -webkit-background-size: cover;
@@ -190,7 +194,6 @@ h2 {
   }
   #section-container3 {
     background: transparent url(../img/bg_section_3.jpg) center 50px no-repeat fixed;
-    -webkit-background-size: cover;
     /* pour Chrome et Safari */
   
     -webkit-background-size: cover;
@@ -217,10 +220,14 @@ h2 {
     position: fixed;
     margin: .5em 0 0 0;
   }
-  input[type=text], input[type=email], input[type=tel] {
+  input[type=text],
+  input[type=email],
+  input[type=tel] {
     width: 19.5em;
   }
-  select, select:hover, input[type=submit] {
+  select,
+  select:hover,
+  input[type=submit] {
     width: 20.6em;
   }
   /* celebrities /
@@ -347,7 +354,6 @@ h2 {
 }
 .desktop #section-container2 {
   background: transparent url(../img/bg_section_2.jpg) center 50px no-repeat fixed;
-  -webkit-background-size: cover;
   /* pour Chrome et Safari */
 
   -webkit-background-size: cover;
@@ -361,7 +367,6 @@ h2 {
 }
 .desktop #section-container3 {
   background: transparent url(../img/bg_section_3.jpg) center 50px no-repeat fixed;
-  -webkit-background-size: cover;
   /* pour Chrome et Safari */
 
   -webkit-background-size: cover;
@@ -387,10 +392,14 @@ h2 {
   position: fixed;
   margin: .5em 0 0 0;
 }
-.desktop input[type=text], .desktop input[type=email], .desktop input[type=tel] {
+.desktop input[type=text],
+.desktop input[type=email],
+.desktop input[type=tel] {
   width: 19.5em;
 }
-.desktop select, .desktop select:hover, .desktop input[type=submit] {
+.desktop select,
+.desktop select:hover,
+.desktop input[type=submit] {
   width: 20.6em;
 }
 .desktop .celebrities li {
@@ -440,4 +449,8 @@ h2 {
   display: block;
   cursor: pointer;
   cursor: hand;
+}
+/* ----- Browser specific-------------------------------- */
+.lt-ie7 .desktop #header-container1 {
+  position: absolute;
 }
