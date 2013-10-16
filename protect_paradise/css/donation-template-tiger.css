@@ -10,6 +10,9 @@
 .select-styling {
   display: inline;
 }
+footer {
+  padding-bottom: 30px;
+}
 @media only screen and (min-width: 1024px) {
   #section-container1 {
     background: transparent url(../img/bg_thank_you_donate.jpg) center 50px no-repeat fixed;
