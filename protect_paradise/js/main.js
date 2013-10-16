@@ -1,26 +1,3 @@
-// Avoid `console` errors in browsers that lack a console.
-(function() {
-    'use strict';
-    var method,
-    noop = function() {},
-    methods = [
-        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-        'timeStamp', 'trace', 'warn'],
-    l = methods.length,
-    console = (window.console = window.console || {});
-
-    while (l--) {
-        method = methods[l];
-
-        // Only stub undefined methods.
-        if (!console[method]) {
-            console[method] = noop;
-        }
-    }
-}());
-
 
 $(document).ready(function(){
 	$('#section-container1').parallax("50%", 0.1);
@@ -34,7 +11,7 @@ $(document).ready(function(){
 	$("#js-show-more").click(function(){
 			if(i<max) i++; else i = 1;
 			if(j<max) j++; else j = 1;
-		  console.log('show:'+i+'; hide:'+j);
+		  //console.log('show:'+i+'; hide:'+j); // console.log is a big NO-NO for IE < 8
 			$(".celebrities li:nth-child("+j+")").fadeOut("fast");
 			$(".celebrities li:nth-child("+i+")").fadeIn("fast");
 
@@ -48,7 +25,7 @@ $(document).ready(function(){
     var formOffset = $('#action-form').offset();
     var formHeight = $('#action-form').height();
 
-    if (formOffset.top + formHeight < window.height()) {
+    if (formOffset.top + formHeight < $(window).height()) {
         $('#action-form').css({
             'position':'fixed'
         });

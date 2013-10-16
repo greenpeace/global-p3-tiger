@@ -17,7 +17,7 @@ $(document).ready(function () {
         });
             $('#UserEmail, #UserFirstname, #UserLastname').blur(function () {
                 if ($(this).val() == '') {
-                    $(this).parent().find('.error').remove();
+                    $(this).parent().find('.error').css('background', 'none').remove();
                     $(this).after('<div class="error">This field is required!</div>');
                     $(this).css({
                         'border': '3px solid red'
@@ -27,7 +27,7 @@ $(document).ready(function () {
                     $(this).css({
                         'border': 'none'
                     });
-                    $(this).parent().find('.error').remove();
+                    $(this).parent().find('.error').css('background', 'none').remove();
                 }
 
             });
@@ -47,7 +47,7 @@ $(document).ready(function () {
                 $(this).css({
                     'border': 'none'
                 });
-                $(this).parent().find('.error').remove();
+                $(this).parent().find('.error').css('background', 'none').remove();
             }
         });
 
