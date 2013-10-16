@@ -1,3 +1,15 @@
+#donate-form-tiger .radiolist {
+  width: 100%;
+}
+#donate-form-tiger .radiolist .text {
+  display: inline;
+}
+#donate-form-tiger .radiolist .text #DonationAmountOther {
+  width: 100px;
+}
+.select-styling {
+  display: inline;
+}
 @media only screen and (min-width: 1024px) {
   #section-container1 {
     background: transparent url(../img/bg_thank_you_donate.jpg) center 50px no-repeat fixed;
@@ -74,13 +86,4 @@
   float: left;
   clear: both;
   margin: 0 0 .5em 0;
-}
-.lt-ie8 #donate-form-tiger .radiolist {
-  width: 100%;
-}
-.lt-ie8 #donate-form-tiger .radiolist .text #DonationAmountOther {
-  width: 100px;
-}
-.lt-ie8 .select-styling {
-  display: inline;
 }
