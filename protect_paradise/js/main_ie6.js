@@ -1,5 +1,11 @@
 $(document).ready(function () {
-    if ($('html').hasClass('lt-ie7')) {
+    if ($('html').hasClass('lt-ie8')) {
+        $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
+            var text = $(this).text();
+            $(this).text(text + ' *');
+        });
+    }
+    if ($('html').hasClass('lt-ie9')) {
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
 
@@ -11,10 +17,6 @@ $(document).ready(function () {
             window.validated = true;
 
             // validate not empty
-        $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
-            var text = $(this).text();
-            $(this).text(text + ' *');
-        });
             $('#UserEmail, #UserFirstname, #UserLastname').blur(function () {
                 if ($(this).val() == '') {
                     $(this).parent().find('.error').css('background', 'none').remove();
