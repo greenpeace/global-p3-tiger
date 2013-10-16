@@ -15,6 +15,7 @@
 .social-share li {
 	display:inline-block;
 	margin-right:1.25em;
+  float: left;
 }
 .social-share .counter span {
 	border:1px solid #CCC;
