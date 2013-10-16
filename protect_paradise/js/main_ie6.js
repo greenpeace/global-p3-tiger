@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    if ($('html').hasClass('lt-ie9')) {
+    if ($('html').hasClass('lt-ie7')) {
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
 
@@ -7,51 +7,58 @@ $(document).ready(function () {
             'display': 'block'
         });
 
-        $('#action-form-tiger').submit(function (event) {
+//
             window.validated = true;
 
             // validate not empty
-            $('#UserEmail, #UserFirstname, #UserLastname').each(function () {
-                if ($(this).val() == '' || $(this).val() == 'Please fill out this field!') {
-                    $(this).val('Please fill out this field!');
+
+            $('#UserEmail, #UserFirstname, #UserLastname').blur(function () {
+                if ($(this).val() == '') {
+                    $(this).parent().find('.error').remove();
+                    $(this).after('<div class="error">This field is required!</div>');
                     $(this).css({
-                        'background': 'orange'
+                        'border': '3px solid red'
                     });
-                    window.validated = false;
+
+                } else {
+                    $(this).css({
+                        'border': 'none'
+                    });
+                    $(this).parent().find('.error').remove();
                 }
 
             });
 
             //validate email-string-structure
-            if ($('#UserEmail').val() != '' || $('#UserEmail').val() != 'Please fill out this field!') {
-                var email = $('#UserEmail').val();
+        $('#UserEmail').blur(function() {
+            var email = $('#UserEmail').val();
 
                 if (email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/) == null) {
 
-                    $('#UserEmail').val('Email not valid!');
-                    $('#UserEmail').css({
-                        'background': 'orange'
+                    $(this).after('<div class="error">Please enter a valid email address!</div>');
+                    $(this).css({
+                        'border': '1px solid red'
                     });
-                    window.validated = false;
-                }
+
+                } else   {
+                $(this).css({
+                    'border': 'none'
+                });
+                $(this).parent().find('.error').remove();
             }
+        });
 
 
-            // check summary of all required fields
-            if (window.validated == false) {
+        $('#action-form-tiger').submit(function (event) {
+            $('#UserEmail, #UserFirstname, #UserLastname').blur();
+            $('.error').first().parent().find('input').focus();
+          // check summary of all required fields
+            if ($('.error').length > 0) {
                 return false;
             }
 
         });
 
-        $('#UserEmail, #UserFirstname, #UserLastname').focus(function () {
-            if ($(this).val() == 'Please fill out this field!' || $(this).val() == 'Email not valid!') {
-                $(this).val('');
-                $(this).css({
-                    'background': 'white'
-                });
-            }
-        });
 
     }
 });

@@ -308,3 +308,10 @@ select, select:hover {
 .desktop .input .tooltip:hover span {
   visibility: visible;
 }
+
+.lt-ie9 div.error {
+    color: red;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    background: url('../img/errormark.png') 0 3px no-repeat;
+}
