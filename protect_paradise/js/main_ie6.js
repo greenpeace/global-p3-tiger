@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    if ($('html').hasClass('lt-ie10')) {
+        $('.select label, .text label').css({
+            'display': 'block'
+        });
+    }
     if ($('html').hasClass('lt-ie8')) {
         $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
             var text = $(this).text();
@@ -9,9 +14,7 @@ $(document).ready(function () {
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
 
-        $('.select label, .text label').css({
-            'display': 'block'
-        });
+
 
 //
             window.validated = true;
