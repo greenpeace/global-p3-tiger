@@ -295,5 +295,13 @@ blockquote {
 
 .desktop {
   .desktop_macro;
+
+  // needed seperatly as .js is the *parent* of .desktop
+  // (this is some code duplication)
+  .js & #js-show-more {
+    display:block;
+    cursor:pointer;
+    cursor:hand;
+  }
 }
 

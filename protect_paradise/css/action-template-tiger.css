@@ -426,3 +426,8 @@ h2 {
 .desktop .footer ul {
   float: right;
 }
+.js .desktop #js-show-more {
+  display: block;
+  cursor: pointer;
+  cursor: hand;
+}
