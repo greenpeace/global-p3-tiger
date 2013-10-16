@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px) {
   #section-container1 {
-    background: transparent url(../img/bg_thank_you_donate.jpg) center 50px no-repeat fixed;
+    background: transparent url(../img/bg_share_page.jpg) center 50px no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@
 
 }
 .desktop #section-container1 {
-  background: transparent url(../img/bg_thank_you_donate.jpg) center 50px no-repeat fixed;
+  background: transparent url(../img/bg_share_page.jpg) center 50px no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
