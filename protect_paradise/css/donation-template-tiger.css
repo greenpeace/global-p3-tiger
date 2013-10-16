@@ -75,3 +75,12 @@
   clear: both;
   margin: 0 0 .5em 0;
 }
+.lt-ie8 #donate-form-tiger .radiolist {
+  width: 100%;
+}
+.lt-ie8 #donate-form-tiger .radiolist .text #DonationAmountOther {
+  width: 100px;
+}
+.lt-ie8 .select-styling {
+  display: inline;
+}
