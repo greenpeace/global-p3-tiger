@@ -6,15 +6,16 @@ $(document).ready(function () {
             $(this).text(text + ' *');
         });
     }
+    if ($('html').hasClass('lt-ie9')) {
+        // fallback for css selector
+        $(".celebrities li:nth-child(n+4)").hide();
+    }
     // Validierung für <IE10
     if (!( $('html').hasClass('lt-ie9') || $('html').hasClass('lt-ie8') || $('html').hasClass('lt-ie7'))) {
 
         $('.select label, .text label').css({
             'display': 'block'
         });
-
-        // fallback for css selector
-        $(".celebrities li:nth-child(n+4)").hide();
 
 
 
