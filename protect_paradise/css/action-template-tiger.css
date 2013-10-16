@@ -84,6 +84,9 @@ h2 {
   padding-left: 1.25em;
 }
 /* footer */
+footer {
+  padding-bottom: 30px;
+}
 .footer {
   border-top: .5em solid #ff6b08;
   margin-top: 3em;
