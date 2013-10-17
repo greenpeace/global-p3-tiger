@@ -1,5 +1,5 @@
-$(document).ready(function () {
 
+$(document).ready(function () {
 
     fixFormPosition();
 
@@ -67,18 +67,43 @@ $(document).ready(function () {
 
 
         $('#action-submit-full input').click(function (event) {
-//            alert('submit');
             $('#UserEmail, #UserFirstname, #UserLastname').keyup();
             $('.error').first().parent().find('input').focus();
           // check summary of all required fields
             if ($('.error').length > 0) {
-//                alert('error');
                 return false;
             } else {
-//                alert('no error');
                 return true;
             }
         });
+
+
+    $('div.input.text.amount input').keyup(function() {
+        var otherAmount = $('div.input.text.amount input').val();
+
+        if (isNaN(otherAmount)) {
+            $(this).parent().find('.error').css('background', 'none').remove();
+            $(this).after('<div class="error">Please enter a valid number!</div>');
+            $(this).css({
+                'border': '3px solid red'
+            });
+
+        } else   {
+            $(this).css({
+                'border': '1px solid grey'
+            });
+            $(this).parent().find('.error').css('background', 'none').remove();
+            return true;
+        }
+    });
+
+    // für donation.html: validate "other amount" field
+    if ($('input[name=DonationAmount]').length > 0 ) {
+
+        $('#donate-form-tiger').submit(function(){
+            $('div.input.text.amount input').keyup();
+        });
+    }
 
 
 });

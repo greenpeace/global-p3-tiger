@@ -47,7 +47,10 @@ $(document).ready(function(){
         DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
     }
 
-
+// check radio-button "other amount"
+    $('div.input.text.amount input').focus(function(){
+      $('input[name=DonationAmount]').prop('checked', true);
+    });
 
 
 });
