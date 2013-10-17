@@ -24,7 +24,7 @@ $(document).ready(function () {
             'margin': '0'
         });
         $('input#DonationAmountOther').css({
-            'width': '55px'
+            'width': '50px'
         });
 
 
