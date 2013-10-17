@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+
+    fixFormPosition();
+
     if ($('html').hasClass('lt-ie8')) {
         $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
             var text = $(this).text();
@@ -23,7 +26,7 @@ $(document).ready(function () {
             window.validated = true;
 
             // validate not empty
-            $('#UserEmail, #UserFirstname, #UserLastname').blur(function () {
+            $('#UserEmail, #UserFirstname, #UserLastname').keyup(function () {
                 if ($(this).val() == '') {
                     $(this).parent().find('.error').css('background', 'none').remove();
                     $(this).after('<div class="error">This field is required!</div>');
@@ -33,15 +36,17 @@ $(document).ready(function () {
 
                 } else {
                     $(this).css({
-                        'border': 'none'
+                        'border': '1px solid grey'
                     });
                     $(this).parent().find('.error').css('background', 'none').remove();
                 }
-
+//                alert('blur');
+                fixFormPosition();
+                return true;
             });
 
             //validate email-string-structure
-        $('#UserEmail').blur(function() {
+        $('#UserEmail').keyup(function() {
             var email = $('#UserEmail').val();
 
                 if (email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/) == null) {
@@ -53,23 +58,40 @@ $(document).ready(function () {
 
                 } else   {
                 $(this).css({
-                    'border': 'none'
+                    'border': '1px solid grey'
                 });
                 $(this).parent().find('.error').css('background', 'none').remove();
+                return true;
             }
         });
 
 
-        $('#action-form-tiger').submit(function (event) {
-            $('#UserEmail, #UserFirstname, #UserLastname').blur();
+        $('#action-submit-full input').click(function (event) {
+//            alert('submit');
+            $('#UserEmail, #UserFirstname, #UserLastname').keyup();
             $('.error').first().parent().find('input').focus();
           // check summary of all required fields
             if ($('.error').length > 0) {
+//                alert('error');
                 return false;
+            } else {
+//                alert('no error');
+                return true;
             }
-
         });
 
 
     }
 });
+
+
+// check form-height against document-height -> position fixed or relative
+function fixFormPosition() {
+    var formOffset = $('#action-form').offset();
+    var formHeight = $('#action-form').height();
+    if (formOffset.top + formHeight < $(window).height()) {
+        $('#action-form').css({
+            'position':'fixed'
+        });
+    }
+}
