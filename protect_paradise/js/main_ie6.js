@@ -13,12 +13,20 @@ $(document).ready(function () {
         // fallback for css selector
         $(".celebrities li:nth-child(n+4)").hide();
     }
-    // Validierung für >=IE9
+    // Label und Validierung für <=IE9
     if ($('html').hasClass('lt-ie10')) {
 
         $('.select label, .text label').css({
             'display': 'block'
         });
+        $('label[for=DonationAmountOther]').css({
+            'display': 'inline',
+            'margin': '0'
+        });
+        $('input#DonationAmountOther').css({
+            'width': '55px'
+        });
+
 
     }
 
