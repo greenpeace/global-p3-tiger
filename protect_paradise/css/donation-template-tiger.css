@@ -29,9 +29,9 @@ footer {
     height: 100%;
   }
   #section-holder1 {
-    margin-top: 3em;
-    float: none;
-    width: auto;
+    float: right;
+    width: 360px;
+    margin-top: 7em;
   }
   /* additional form formating */
   #donate-form-tiger .amount {
@@ -56,16 +56,14 @@ footer {
     width: 460px;
     float: left;
     padding: 20px;
-    margin-top: 6em;
+    margin-top: 7em;
     background: #000;
     background: rgba(0, 0, 0, 0.6);
     margin-left: 20px;
     border-radius: 5px;
   }
   #action-form {
-    margin-top: 6em;
     position: relative;
-    float: right;
     border-radius: 5px;
   }
 }
@@ -88,9 +86,9 @@ footer {
   height: 100%;
 }
 .desktop #section-holder1 {
-  margin-top: 3em;
-  float: none;
-  width: auto;
+  float: right;
+  width: 360px;
+  margin-top: 7em;
 }
 .desktop #donate-form-tiger .amount {
   display: inline;
@@ -114,16 +112,14 @@ footer {
   width: 460px;
   float: left;
   padding: 20px;
-  margin-top: 6em;
+  margin-top: 7em;
   background: #000;
   background: rgba(0, 0, 0, 0.6);
   margin-left: 20px;
   border-radius: 5px;
 }
 .desktop #action-form {
-  margin-top: 6em;
   position: relative;
-  float: right;
   border-radius: 5px;
 }
 .lt-ie9 .desktop #section-container1 {
