@@ -22,10 +22,13 @@
 }());
 
 $(document).ready(function(){
-	$('#section-container1').parallax("50%", 0.1);
-	$('#section-container2').parallax("50%", 0.2);
-	$('#section-container3').parallax("50%", 0.1);
-	
+  
+	if (!$('html').hasClass('lt-ie7')) {
+		$('#section-container1').parallax("50%", 0.1);
+		$('#section-container2').parallax("50%", 0.2);
+		$('#section-container3').parallax("50%", 0.1);
+	}
+
 	var i = 3;
 	var j = 0;
 	var max = $(".celebrities li").size();
