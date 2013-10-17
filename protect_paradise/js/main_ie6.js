@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(".celebrities li:nth-child(n+4)").hide();
     }
     // Validierung für >=IE9
-    if (!( $('html').hasClass('lt-ie9') || $('html').hasClass('lt-ie8') || $('html').hasClass('lt-ie7'))) {
+    if ($('html').hasClass('lt-ie10')) {
 
         $('.select label, .text label').css({
             'display': 'block'
