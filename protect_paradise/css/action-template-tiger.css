@@ -88,12 +88,10 @@ blockquote {
   padding-left: 1.25em;
 }
 /* footer */
-footer {
-  padding-bottom: 30px;
-}
 .footer {
   border-top: .5em solid #ff6b08;
   margin-top: 3em;
+  padding-bottom: 30px;
 }
 .footer ul {
   margin: 1em 0;
@@ -281,6 +279,7 @@ footer {
   .footer {
     margin-top: 0;
     height: 4em;
+    padding-bottom: 0;
   }
   .footer .logo-box {
     float: left;
@@ -450,6 +449,7 @@ footer {
 .desktop .footer {
   margin-top: 0;
   height: 4em;
+  padding-bottom: 0;
 }
 .desktop .footer .logo-box {
   float: left;
