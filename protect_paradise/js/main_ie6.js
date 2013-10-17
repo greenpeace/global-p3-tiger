@@ -20,7 +20,7 @@ $(document).ready(function () {
             'display': 'block'
         });
 
-
+    }
 
 //
             window.validated = true;
@@ -81,17 +81,19 @@ $(document).ready(function () {
         });
 
 
-    }
 });
 
 
 // check form-height against document-height -> position fixed or relative
 function fixFormPosition() {
-    var formOffset = $('#action-form').offset();
-    var formHeight = $('#action-form').height();
-    if (formOffset.top + formHeight < $(window).height()) {
+  if ($('body').hasClass('desktop')) {
+    var formOffset = $('#action-form.block').offset();
+    var formHeight = $('#action-form.block').height();
+    if (formOffset.top + 30 + formHeight < $(window).height()) {
         $('#action-form').css({
             'position':'fixed'
         });
+//        alert('resize');
     }
+  }
 }
