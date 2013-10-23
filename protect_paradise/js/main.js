@@ -23,14 +23,17 @@
 
 $(document).ready(function(){
 
+  // initialize form positioning, see below for further info
   fixFormPosition();
 
+  // initialize parallax effect
   if (!$('html').hasClass('lt-ie7')) {
     $('#section-container1').parallax("50%", 0.1);
     $('#section-container2').parallax("50%", 0.2);
     $('#section-container3').parallax("50%", 0.1);
   }
 
+  // celebrities carousel
   var i = 3;
   var j = 0;
   var max = $(".celebrities li").size();
@@ -54,23 +57,23 @@ $(document).ready(function(){
   });
 
   /* ------ IE specifics ----------------------- */
+
+  // fallback: display labels in IE 6 + 7
   if ($('html').hasClass('lt-ie8')) {
     $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
       var text = $(this).text();
       $(this).text(text + ' *');
     });
   }
+  // fallback for no supported css selector
   if ($('html').hasClass('lt-ie9')) {
-    // fallback for css selector
     $(".celebrities li:nth-child(n+4)").hide();
   }
   // validation for >=IE9
   if ($('html').hasClass('lt-ie10')) {
-
     $('.select label, .text label').css({
       'display': 'block'
     });
-
   }
 });
 
