@@ -25,6 +25,9 @@ $(document).ready(function(){
 
   // initialize form positioning, see below for further info
   fixFormPosition();
+  $(window).resize(function() {
+    fixFormPosition();
+  });
 
   // initialize parallax effect
   if (!$('html').hasClass('lt-ie7')) {
@@ -91,5 +94,9 @@ function fixFormPosition() {
         'position':'fixed'
       });
     }
+  } else {
+    $('#action-form').css({
+      'position':''
+    });
   }
 }
