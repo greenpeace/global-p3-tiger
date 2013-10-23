@@ -23,6 +23,8 @@
 
 $(document).ready(function(){
 
+  fixFormPosition();
+
   if (!$('html').hasClass('lt-ie7')) {
     $('#section-container1').parallax("50%", 0.1);
     $('#section-container2').parallax("50%", 0.2);
@@ -36,15 +38,13 @@ $(document).ready(function(){
   $("#js-show-more").click(function(){
     if(i<max) i++; else i = 1;
     if(j<max) j++; else j = 1;
-    console.log('show:'+i+'; hide:'+j);
-    $(".celebrities li:nth-child("+j+")").slideUp("normal", function() {
-      $(".celebrities li:nth-child("+i+")").slideDown("fast");
-    });
+    $(".celebrities li:nth-child("+j+")").fadeIn("fast");
+    $(".celebrities li:nth-child("+i+")").fadeOut("fast");
 
   });
 
   // IE6 PNG fix
-  if ($('html').hasClass('lt-ie9')) {
+  if ($('html').hasClass('lt-ie7')) {
     DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
   }
 
@@ -53,7 +53,40 @@ $(document).ready(function(){
     $('input[name=DonationAmount]').prop('checked', true);
   });
 
+  /* ------ IE specifics ----------------------- */
+  if ($('html').hasClass('lt-ie8')) {
+    $('#UserEmail, #UserFirstname, #UserLastname').parent().find('label').each(function(){
+      var text = $(this).text();
+      $(this).text(text + ' *');
+    });
+  }
+  if ($('html').hasClass('lt-ie9')) {
+    // fallback for css selector
+    $(".celebrities li:nth-child(n+4)").hide();
+  }
+  // validation for >=IE9
+  if ($('html').hasClass('lt-ie10')) {
+
+    $('.select label, .text label').css({
+      'display': 'block'
+    });
+
+  }
 });
 
 
-
+// check form-height against document-height -> position fixed or relative
+// this deals with the edge case when the form is too large to fit on a
+// relatively short screen --> the submit button would be hidden and no
+// scrollbars would be displayed, rendering the forum unsubmittable
+function fixFormPosition() {
+  if ($('body').hasClass('desktop')) {
+    var formOffset = $('#action-form.block').offset();
+    var formHeight = $('#action-form.block').height();
+    if (formOffset.top + 30 + formHeight < $(window).height()) {
+      $('#action-form').css({
+        'position':'fixed'
+      });
+    }
+  }
+}
