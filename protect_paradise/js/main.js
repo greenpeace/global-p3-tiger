@@ -43,7 +43,7 @@ $(document).ready(function(){
 	});
 
 // IE6 PNG fix
-	if ($('html').hasClass('lt-ie9')) {
+	if ($('html').hasClass('lt-ie7')) {
         DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
     }
 
