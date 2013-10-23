@@ -23,6 +23,7 @@
 
 $(document).ready(function(){
 
+  /* ----- initializing -------------------------- */
   // initialize form positioning, see below for further info
   fixFormPosition();
   $(window).resize(function() {
@@ -49,17 +50,17 @@ $(document).ready(function(){
 
   });
 
-  // IE6 PNG fix
-  if ($('html').hasClass('lt-ie7')) {
-    DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
-  }
-
   // check radio-button "other amount"
   $('div.input.text.amount input').focus(function(){
     $('input[name=DonationAmount]').prop('checked', true);
   });
 
   /* ------ IE specifics ----------------------- */
+
+  // IE6 PNG fix
+  if ($('html').hasClass('lt-ie7')) {
+    DD_belatedPNG.fix('img, div.error, i, a, .section-raster-container, .logo, .png_bg');
+  }
 
   // fallback: display labels in IE 6 + 7
   if ($('html').hasClass('lt-ie8')) {
