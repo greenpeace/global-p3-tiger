@@ -43,38 +43,38 @@
 	Credit: David Bushell http://dbushell.com @dbushell
 */
 .social-share .action a {
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
 }
 .social-share .action a span {
 	display:block;
-  padding: 0.5em;
+	padding: 0.5em;
 }
 .social-share .facebook a {
 	background:transparent url(../img/social-map.png) 0 -90px no-repeat;
-  background: none;
-  background-color: #2B579A;
-  background-image: linear-gradient(to bottom, #4B77BA, #2B579A);
-  border: 1px solid #23365B;
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
+	background: none;
+	background-color: #2B579A;
+	background-image: linear-gradient(to bottom, #4B77BA, #2B579A);
+	border: 1px solid #23365B;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
 }
 .social-share .google a {
 	background:transparent url(../img/social-map.png) 0 -45px no-repeat;
-  background: none;
-  background-color: #4F4F4F;
-  background-image: linear-gradient(to bottom, #6F6F6F, #4F4F4F);
-  border-color: 1px solid #3F3F3F;
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
+	background: none;
+	background-color: #4F4F4F;
+	background-image: linear-gradient(to bottom, #6F6F6F, #4F4F4F);
+	border-color: 1px solid #3F3F3F;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
 }
 .social-share .twitter a {
 	background:transparent url(../img/social-map.png) 0 0 no-repeat;
-  background: none;
-  background-color: #0098CD;
-  background-image: linear-gradient(to bottom, #20B8ED, #0098CD);
-  border-color: 1px solid #005B7A;
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.175);
+	background: none;
+	background-color: #0098CD;
+	background-image: linear-gradient(to bottom, #20B8ED, #0098CD);
+	border-color: 1px solid #005B7A;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.175);
 }
 .social-share .pinterest a {
 	background:transparent url(../img/social-map.png) 0 -175px no-repeat;

@@ -83,7 +83,7 @@ blockquote {
 	margin-bottom:1em;
 }
 .celebrities blockquote p {
-  font-style: italic;
+	font-style: italic;
 }
 .celebrities blockquote p:before,
 .celebrities blockquote p:after {
@@ -197,7 +197,7 @@ blockquote {
 		background-size: cover;
 		height:820px;
 	}
-  	#section2 {
+	#section2 {
 		padding-top:3em;
 	}
 
@@ -219,7 +219,7 @@ blockquote {
 		border-radius:5px;
 	}
 
-  /* form */
+	/* form */
 	#action-form {
 		background:#000;
 		width:330px;
@@ -241,18 +241,12 @@ blockquote {
 		width:20.6em;
 	}
 
-  /* celebrities /
-	.celebrities {
-		width:520px;
-		max-height:480px;
-		border:1px solid blue;
-		overflow-y:scroll;
-	}*/
+	/* celebrities */
 	.celebrities li {
 		width:480px;
 		padding:10px;
 		background:#000;
-	background: rgba(0, 0, 0, .6);
+		background: rgba(0, 0, 0, .6);
 		min-height:115px;
 		border-radius:5px;
 	}
@@ -284,7 +278,7 @@ blockquote {
 		border-radius:5px;
 	}
 
-  /* footer */
+	/* footer */
 	.footer {
 		margin-top:0;
 		height:4em;
@@ -302,14 +296,14 @@ blockquote {
 /* ----- Media queries --------------------------------- */
 
 @media only screen and (min-width : 1024px) {
- 	.desktop_macro;
+	.desktop_macro;
 }
 
 .desktop {
 	.desktop_macro;
 
-	// needed seperatly as .js is the *parent* of .desktop
-	// (this is some code duplication)
+	/* needed seperatly as .js is the *parent* of .desktop */
+	/* (this is some code duplication) */
 	.js & #js-show-more {
 		display:block;
 		cursor:pointer;
