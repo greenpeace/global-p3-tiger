@@ -26,9 +26,6 @@ $(document).ready(function(){
   /* ----- initializing -------------------------- */
   // initialize form positioning, see below for further info
   fixFormPosition();
-  $(window).resize(function() {
-    fixFormPosition();
-  });
 
   // initialize parallax effect
   if (!$('html').hasClass('lt-ie7')) {
@@ -53,6 +50,33 @@ $(document).ready(function(){
   // check radio-button "other amount"
   $('div.input.text.amount input').focus(function(){
     $('input[name=DonationAmount]').prop('checked', true);
+  });
+
+  /* ----- resizing -------------------------- */
+
+  // gets true when crossed the breakpoint
+  window.breakpointPassed = $('body').hasClass('desktop');
+
+  // stuff to recalc when resized resp when crossing the breakpoint
+  $(window).resize(function() {
+    var $body = $('body');
+
+    // recalc form positioning
+    fixFormPosition();
+
+    // switch to desktop
+    if (!window.breakpointPassed && $body.hasClass('desktop')) {
+      $('#section-container1').parallax("50%", 0.1);
+      $('#section-container2').parallax("50%", 0.2);
+      $('#section-container3').parallax("50%", 0.1);
+
+      window.breakpointPassed = true;
+    }
+    // switch to mobile
+    if (window.breakpointPassed && !$body.hasClass('desktop')) {
+      // reset breakpoint indicator
+      window.breakpointPassed = false;
+    }
   });
 
   /* ------ IE specifics ----------------------- */
