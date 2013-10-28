@@ -1,4 +1,9 @@
-
+/**!
+ * $.p3.parallax
+ *
+ * @copyright		Copyright 2013, Greenpeace International
+ * @license			MIT License (opensource.org/licenses/MIT)
+ */
 // Resize parallax sections to fill the screen
 window.tsw_resize_timer = false;
 function resizeSections() {
@@ -32,12 +37,9 @@ function fixFormPosition() {
     });
   }
 }
-
 $(document).ready(function() {
-
   // Initialise parallax sizes
   resizeSections();
-
 
   /* ----- initializing -------------------------- */
   // initialize form positioning, see below for further info
@@ -50,13 +52,25 @@ $(document).ready(function() {
     $('#section-container3').parallax("50%", 0.1);
   }
 
+  // celebrities carousel
+  var i = 3;
+  var j = 0;
+  var max = $(".celebrities li").size();
+
+  $("#js-show-more").click(function(){
+    if(i<max) i++; else i = 1;
+    if(j<max) j++; else j = 1;
+    $(".celebrities li:nth-child("+j+")").fadeIn("fast");
+    $(".celebrities li:nth-child("+i+")").fadeOut("fast");
+
+  });
+
   // check radio-button "other amount"
   $('div.input.text.amount input').focus(function(){
     $('input[name=DonationAmount]').prop('checked', true);
   });
 
   /* ----- resizing -------------------------- */
-
   // gets true when crossed the breakpoint
   window.breakpointPassed = $('body').hasClass('desktop');
 

@@ -26,8 +26,7 @@
 	<meta property="twitter:site" content="Greenpeace" />
 
 	<link rel="stylesheet" type="text/css" href="css/588ff6a0-21d4-11e3-8224-0800200c9a66.css" />
-        
-        <script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 </head>
 <body itemscope="" itemtype="https://schema.org/WebPage">
 
@@ -85,7 +84,7 @@ tiger and forest friendly!
 				<input type="text" name="hihoney" placeholder="say hi honey" /><!-- honeypot -->
 			</div>
 			<div id="action-form-authentication">
-			  <!--div class="social social-login login">
+				<!--div class="social social-login login">
 					<p>Please enter your email bellow. You can also login with <a href="#" class="facebook">			<span>facebook</span></a> or <a href="#" class="google"><span>google</span></a></p>
 				</div-->
 				<div class="input required text email">
@@ -436,7 +435,7 @@ tiger and forest friendly!
 			<p>
 				I look after myself and I want to know what’s in my products. Don’t make me part of the Sumatran tigers’ extinction.
 			</p>
-      <p>Yes! I want the products I love to be tiger and forest friendly. </p>
+			<p>Yes! I want the products I love to be tiger and forest friendly. </p>
 			<ul class="manifesto">
 				<li>
 					There are solutions that don’t involve forest destruction. We want clean palm oil and we ask that our favourite brands listen to our voices.
@@ -490,87 +489,87 @@ tiger and forest friendly!
 	<!--[if lt IE 7]><script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script><![endif]-->
 	<!--[if lt IE 10]><script type="text/javascript" src="js/ie_compat.js"></script><![endif]-->
 	<script>
-	  /*
-     * Validation Rules 
-     * @see p3.validation.js
-     * @licence MIT License (opensource.org/licenses/MIT)
-     */
-	  $.p3.validation('#action-form', {
+		/*
+		 * Validation Rules 
+		 * @see p3.validation.js
+		 * @licence MIT License (opensource.org/licenses/MIT)
+		 */
+		$.p3.validation('#action-form', {
 			jsonURL: false,
-		  rules: {
-		      "firstname": {
-		          "alphaPlus": true,
-		          "required": true
-		      },
-		      "lastname": {
-		          "alphaPlus": true,
-		          "required": true,
-		          "minlength": 3
-		      },
-		      "email": {
-		          "required": true,
-		          "email": true
-		      },
-		      "phone": {
-		          "numeric": true,
-		          "minlength": 8
-		      }
-		  },
-		  messages: {
-		      "firstname": "Please enter a valid first name",
+			rules: {
+					"firstname": {
+							"alphaPlus": true,
+							"required": true
+					},
+					"lastname": {
+							"alphaPlus": true,
+							"required": true,
+							"minlength": 3
+					},
+					"email": {
+							"required": true,
+							"email": true
+					},
+					"phone": {
+							"numeric": true,
+							"minlength": 8
+					}
+			},
+			messages: {
+					"firstname": "Please enter a valid first name",
 					"lastname": "Please enter your last name",
-		      "email": "Please enter a valid email address",
-		      "phone": "Please enter your phone number",
-		      "country": "Please select your country"
-		  }
-	  });
+					"email": "Please enter a valid email address",
+					"phone": "Please enter your phone number",
+					"country": "Please select your country"
+			}
+		});
 	</script>
 
-    <!--
-        <script type="text/javascript">
-    /*
-            // GA Global and local account tracking
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-3355226-9']);
-            _gaq.push(['_setDomainName', '.greenpeace.org']);
-            _gaq.push(['_setAllowLinker', true]);
-            _gaq.push(['_setAllowHash', false]);
-            _gaq.push(['_setSiteSpeedSampleRate', 10]);
-            _gaq.push(['_trackPageview']);
+		<!--
+				<script type="text/javascript">
+		/*
+						// GA Global and local account tracking
+						var _gaq = _gaq || [];
+						_gaq.push(['_setAccount', 'UA-3355226-9']);
+						_gaq.push(['_setDomainName', '.greenpeace.org']);
+						_gaq.push(['_setAllowLinker', true]);
+						_gaq.push(['_setAllowHash', false]);
+						_gaq.push(['_setSiteSpeedSampleRate', 10]);
+						_gaq.push(['_trackPageview']);
 
-            _gaq.push(['b._setAccount', 'UA-XXXXX-X']);
-            _gaq.push(['b._setDomainName', '.greenpeace.org']);
-            _gaq.push(['b._setAllowLinker', true]);
-            _gaq.push(['b._setAllowHash', false]);
-            _gaq.push(['b._setSiteSpeedSampleRate', 10]);
-            _gaq.push(['b._trackPageview']);
+						_gaq.push(['b._setAccount', 'UA-XXXXX-X']);
+						_gaq.push(['b._setDomainName', '.greenpeace.org']);
+						_gaq.push(['b._setAllowLinker', true]);
+						_gaq.push(['b._setAllowHash', false]);
+						_gaq.push(['b._setSiteSpeedSampleRate', 10]);
+						_gaq.push(['b._trackPageview']);
 
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
+						(function() {
+								var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+								ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+								var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+						})();
 
-            // Form Abandonment
-            $(document).ready(function() {
-                var formName = '';
-                var fieldName = '';
-                $('.js-track-abandonment :input').blur(function () {
-                    formName = ($(this).closest('form').attr('id'));
-                    fieldName = ($(this).attr('name'));
-                    if(fieldName != undefined && formName != undefined) {
-                        if($(this).val().length > 0) {
-                            _gaq.push(['_trackEvent', formName, 'completed', fieldName]);
-                        }
-                        else {
-                            _gaq.push(['_trackEvent', formName, 'skipped', fieldName]);
-                        }
-                    }
-                });
-            });
-    */
-        </script>
-     -->
+						// Form Abandonment
+						$(document).ready(function() {
+								var formName = '';
+								var fieldName = '';
+								$('.js-track-abandonment :input').blur(function () {
+										formName = ($(this).closest('form').attr('id'));
+										fieldName = ($(this).attr('name'));
+										if(fieldName != undefined && formName != undefined) {
+												if($(this).val().length > 0) {
+														_gaq.push(['_trackEvent', formName, 'completed', fieldName]);
+												}
+												else {
+														_gaq.push(['_trackEvent', formName, 'skipped', fieldName]);
+												}
+										}
+								});
+						});
+		*/
+				</script>
+		 -->
 </div>
 </body>
 </html>

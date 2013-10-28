@@ -1,0 +1,31 @@
+{
+    "rules": {
+        "firstname": {
+            "alphaPlus": true,
+            "required": true
+        },
+        "lastname": {
+            "alphaPlus": true,
+            "required": true,
+            "minlength": 3
+        },
+        "email": {
+            "required": true,
+            "email": true
+        },
+        "phone": {
+            "numeric": true,
+            "minlength": 8
+        }
+    },
+    "messages": {
+        "firstname": {
+					"required" : "Please enter your first name",
+					"alphaPlus" : "Please enter a valid first name"
+        },
+				"lastname": "Please enter your last name",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter your phone number",
+        "country": "Please select your country"
+    }
+}
