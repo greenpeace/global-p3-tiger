@@ -489,40 +489,83 @@ tiger and forest friendly!
 	<!--[if lt IE 7]><script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script><![endif]-->
 	<!--[if lt IE 10]><script type="text/javascript" src="js/ie_compat.js"></script><![endif]-->
 	<script>
-		/*
-		 * Validation Rules 
-		 * @see p3.validation.js
-		 * @licence MIT License (opensource.org/licenses/MIT)
-		 */
-		$.p3.validation('#action-form', {
-			jsonURL: false,
-			rules: {
-					"firstname": {
-							"alphaPlus": true,
-							"required": true
-					},
-					"lastname": {
-							"alphaPlus": true,
-							"required": true,
-							"minlength": 3
-					},
-					"email": {
-							"required": true,
-							"email": true
-					},
-					"phone": {
-							"numeric": true,
-							"minlength": 8
-					}
-			},
-			messages: {
-					"firstname": "Please enter a valid first name",
-					"lastname": "Please enter your last name",
-					"email": "Please enter a valid email address",
-					"phone": "Please enter your phone number",
-					"country": "Please select your country"
-			}
-		});
+            /*
+             * Validation Rules 
+             * @see p3.validation.js
+             * @licence MIT License (opensource.org/licenses/MIT)
+             */
+            (function ($) {
+                var formSelector = '#action-form',
+                $errorHolder = $('<div id="errorMessageHolder" class="message"></div>'),
+                animDuration = 350;
+
+                $.validator.addMethod("valueNotEquals", function(value, element, arg) {
+                 return arg !== value;
+                }, "Value must not equal arg.");
+
+                $('#action-submit-full', formSelector).before($errorHolder);
+
+                $.p3.validation(formSelector, {
+                  jsonURL: false,
+                  errorPlacement: function() {},
+                  showErrors: function(errorMap, errorList) {
+                    var $form = $(formSelector);
+                    $(":input", $form).each(function() {
+//                      var $this = $(this),
+//                      name = $this.prop('name');
+//                      if (name) {
+                        $(this).removeClass("error");
+//                        $this.parents('.' + name).first().find('.message').html('');
+//                      }
+                    });
+
+                    if (errorList.length) {
+                        var $firstErrorField = $(errorList[0]['element']);
+
+                        $errorHolder.html('<span class="error" for="' + $firstErrorField.prop('id') + '">' + errorList[0]['message'] + '</span>').show(animDuration);
+
+                        $.each(errorList, function (i, error) {
+                           $(error.element).addClass('error');
+                        });
+                    } else {
+                        if (!$('.error:input', $form).length) {
+                            $errorHolder.hide(animDuration).html('');                            
+                        }
+                    }
+                  },
+                  rules: {
+                    "firstname": {
+                      "alphaPlus": true,
+                      "required": true
+                    },
+                    "lastname": {
+                      "alphaPlus": true,
+                      "required": true,
+                      "minlength": 3
+                    },
+                    "email": {
+                      "required": true,
+                      "email": true
+                    },
+                    "phone": {
+                      "required": true,
+                      "numeric":   true,
+                      "minlength": 8
+                    },
+                    "country": {
+                      "required": true,
+                      "valueNotEquals": '00'
+                    }
+                  },
+                  messages: {
+                    "firstname":  "Please enter your first name",
+                    "lastname":   "Please enter your last name",
+                    "email":      "Please enter a valid email address",
+                    "phone":      "Please enter your phone number",
+                    "country":    "Please select your country"
+                  }
+                });
+            }(jQuery));
 	</script>
 
 		<!--
