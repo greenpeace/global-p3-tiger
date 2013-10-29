@@ -201,8 +201,14 @@ form .info span {
 	margin:-1.25em 1.5em 0 1.5em;
 	border-radius:2px;
 }
-form input.error {
-	border:1px solid #D40000;
+form select.error,
+form input.error,
+form select.error:focus,
+form input.error:focus{
+    -webkit-box-shadow: 0 0 10px #df0000;
+    box-shadow: 0 0 10px #df0000;
+
+    border:1px solid #D40000;
 }
 
 /* if large screen display info as tooltips */
