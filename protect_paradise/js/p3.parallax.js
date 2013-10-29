@@ -4,19 +4,6 @@
  * @copyright		Copyright 2013, Greenpeace International
  * @license			MIT License (opensource.org/licenses/MIT)
  */
-// Resize parallax sections to fill the screen
-window.tsw_resize_timer = false;
-function resizeSections() {
-  // debounce resize event
-  clearTimeout(window.tsw_resize_timer);
-  window.tsw_resize_timer = setTimeout(function () {
-    if ($('body').hasClass('desktop')) {
-      $('.desktop .section-container, .desktop .section-raster-container').height( $(window).height() - $('#header-container1').height() );
-    } else {
-      $('.tablet .section-container, .tablet .section-raster-container').attr('style','');
-    }
-  },50);
-}
 
 // check form-height against document-height -> position fixed or relative
 // this deals with the edge case when the form is too large to fit on a
@@ -38,8 +25,56 @@ function fixFormPosition() {
   }
 }
 $(document).ready(function() {
+
+  // Resize parallax sections to fill the screen
+  var tsw_resize_timer = false,
+  $sections = jQuery('.desktop .section-container, .desktop .section-raster-container'),
+  minSectionHeight = 720;
+
+  $sections.each(function () {
+    var $this = $(this);
+    if (!$this.data('original-height')) {
+      $this.data('original-height', $this.height());
+    }
+  });
+
+  function resizeSections(min) {
+    // Debounce resize event
+    clearTimeout(tsw_resize_timer);
+    tsw_resize_timer = setTimeout(function() {
+      if (jQuery('body').hasClass('desktop')) {
+        // Get the new window size
+        var height = jQuery(window).height() - jQuery('#header-container1').height();
+        if (height < min) {
+          // Not too small
+          height = min;
+        }
+        // Apply the new size
+        $sections.each(function() {
+          var $this = jQuery(this),
+          original = $this.data('original-height');
+
+          // If the new height is smaller than the original, use the original
+          if (height < original) {
+            height = original;
+          }
+          // Set the height
+          $this.height(height);
+        });
+      } else {
+        // Not a desktop (anymore!), use the default values
+        $sections.each(function() {
+          var $this = jQuery(this);
+          if ($this.data('original-height')) {
+            $this.height($this.data('original-height'));
+          }
+        });
+      }
+    }, 100);
+  }
+
   // Initialise parallax sizes
-  resizeSections();
+  resizeSections(minSectionHeight);
 
   /* ----- initializing -------------------------- */
   // initialize form positioning, see below for further info
