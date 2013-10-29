@@ -2,7 +2,7 @@
  * This file is a fallback to the narrow.js in our starterkits.
  * The size classes (.four, .five, ...) are used by the layout.less file
  *
- * This file can be overriden by any derivates (starterkits).
+ * @license			MIT License (opensource.org/licenses/MIT)
  */
 function checkNarrow(){
     var size = {
