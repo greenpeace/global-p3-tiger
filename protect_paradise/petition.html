@@ -104,9 +104,9 @@ tiger and forest friendly!
 					<label for="UserLastname">Lastname</label>
 					<input name="lastname" class="required alpha" required="" maxlength="64" type="text" id="UserLastname" placeholder="Lastname*" />
 				</div>
-				<div class="input text required phone">
+				<div class="input text phone">
 					<label for="UserPhone">Mobile Phone</label>
-					<input name="phone" class="required numeric" maxlength="16" type="tel" id="UserPhone" placeholder="Phone" />
+					<input name="phone" class="numeric" maxlength="16" type="tel" id="UserPhone" placeholder="Phone" />
 				</div>
 				<div class="select required country">
 					<label for="UserCountry">Country</label>
@@ -496,14 +496,13 @@ tiger and forest friendly!
              */
             (function ($) {
                 var formSelector = '#action-form',
-                $errorHolder = $('<div id="errorMessageHolder" class="message"></div>'),
                 animDuration = 350;
-
+                
+                $.p3.autofill(formSelector);
+                
                 $.validator.addMethod("valueNotEquals", function(value, element, arg) {
                  return arg !== value;
                 }, "Value must not equal arg.");
-
-                $('#action-submit-full', formSelector).before($errorHolder);
 
                 $.p3.validation(formSelector, {
                   jsonURL: false,
@@ -511,18 +510,16 @@ tiger and forest friendly!
                   showErrors: function(errorMap, errorList) {
                     var $form = $(formSelector);
                     $(":input", $form).each(function() {
-//                      var $this = $(this),
-//                      name = $this.prop('name');
-//                      if (name) {
                         $(this).removeClass("error");
-//                        $this.parents('.' + name).first().find('.message').html('');
-//                      }
                     });
-
+                    
+                    $('.message', $form).hide(animDuration);
+                    
                     if (errorList.length) {
-                        var $firstErrorField = $(errorList[0]['element']);
-
-                        $errorHolder.html('<span class="error" for="' + $firstErrorField.prop('id') + '">' + errorList[0]['message'] + '</span>').show(animDuration);
+                        var $firstErrorField = $(errorList[0]['element']),
+                            $messageDiv = $firstErrorField.parents('.' + $firstErrorField.prop('name')).first().find('.message');
+                    
+                        $messageDiv.html('<span class="error" for="' + $firstErrorField.prop('id') + '">' + errorList[0]['message'] + '</span>').show(animDuration);
 
                         $.each(errorList, function (i, error) {
                            $(error.element).addClass('error');
@@ -548,7 +545,6 @@ tiger and forest friendly!
                       "email": true
                     },
                     "phone": {
-                      "required": true,
                       "numeric":   true,
                       "minlength": 8
                     },
