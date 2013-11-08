@@ -65,9 +65,7 @@ $(document).ready(function() {
         // Not a desktop (anymore!), use the default values
         $sections.each(function() {
           var $this = jQuery(this);
-          if ($this.data('original-height')) {
-            $this.height($this.data('original-height'));
-          }
+          $this.height('');
         });
       }
     }, 100);
